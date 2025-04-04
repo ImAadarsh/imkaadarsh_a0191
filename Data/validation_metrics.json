@@ -1,0 +1,12 @@
+{
+  "validation_id": "VAL_1540b31c",
+  "model_metrics": {
+    "mape": 4.55,
+    "rmse": 227.52,
+    "r2": 0.9202
+  },
+  "optimization_gain": {
+    "cost_reduction_vs_max": 96.37,
+    "cost_vs_average": 22.54
+  }
+}

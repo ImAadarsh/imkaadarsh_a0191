@@ -1,0 +1,62 @@
+[
+  {
+    "optimization_id": "OPT_ebf5309a",
+    "sla": {
+      "max_response_time_ms": 5000,
+      "max_violation_percent": 0.5
+    },
+    "autoscaling": {
+      "enabled": false,
+      "strategy": "vertical",
+      "ram_threshold_mb": 4442,
+      "cpu_threshold_percent": 91
+    },
+    "allowed_providers": [
+      "IP1",
+      "IP6"
+    ],
+    "location_constraints": [
+      "EU"
+    ]
+  },
+  {
+    "optimization_id": "OPT_9d750147",
+    "sla": {
+      "max_response_time_ms": 5000,
+      "max_violation_percent": 0.5
+    },
+    "autoscaling": {
+      "enabled": true,
+      "strategy": "vertical",
+      "ram_threshold_mb": 4111,
+      "cpu_threshold_percent": 90
+    },
+    "allowed_providers": [
+      "IP1",
+      "IP7"
+    ],
+    "location_constraints": [
+      "EU"
+    ]
+  },
+  {
+    "optimization_id": "OPT_651762cb",
+    "sla": {
+      "max_response_time_ms": 5000,
+      "max_violation_percent": 1.0
+    },
+    "autoscaling": {
+      "enabled": true,
+      "strategy": "vertical",
+      "ram_threshold_mb": 4559,
+      "cpu_threshold_percent": 92
+    },
+    "allowed_providers": [
+      "IP6",
+      "IP1"
+    ],
+    "location_constraints": [
+      "USA"
+    ]
+  }
+]

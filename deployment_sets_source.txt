@@ -1,0 +1,5 @@
+https://www.kaggle.com/datasets/abdurraziq01/cloud-computing-performance-metrics/data
+
+https://www.kaggle.com/datasets/nickkinyae/orchestration-and-kubernetes-based-cloud-computing
+
+https://www.kaggle.com/datasets/nickkinyae/devops-aws-and-azure-effectiveness-deployment

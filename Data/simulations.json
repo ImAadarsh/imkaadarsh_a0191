@@ -1,0 +1,1802 @@
+[
+  {
+    "simulation_id": "SIM_7b3478cc",
+    "deployment_config": {
+      "provider": "IP1",
+      "instance_size": "c5.xlarge",
+      "pricing_model": "OnDemand",
+      "autoscaling": "vertical"
+    },
+    "cost_usd": 5.29,
+    "qos_metrics": {
+      "avg_response_time_ms": 2018,
+      "slo_violation_percent": 1.0
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 77.5,
+      "peak_ram_mb": 14779
+    }
+  },
+  {
+    "simulation_id": "SIM_a38ae314",
+    "deployment_config": {
+      "provider": "IP6",
+      "instance_size": "t2.micro",
+      "pricing_model": "Reserved",
+      "autoscaling": "vertical"
+    },
+    "cost_usd": 42.74,
+    "qos_metrics": {
+      "avg_response_time_ms": 2405,
+      "slo_violation_percent": 0.8
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 88.4,
+      "peak_ram_mb": 3746
+    }
+  },
+  {
+    "simulation_id": "SIM_1c2e2856",
+    "deployment_config": {
+      "provider": "IP1",
+      "instance_size": "t2.medium",
+      "pricing_model": "Reserved",
+      "autoscaling": "vertical"
+    },
+    "cost_usd": 3.87,
+    "qos_metrics": {
+      "avg_response_time_ms": 2777,
+      "slo_violation_percent": 0.6
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 71.5,
+      "peak_ram_mb": 16235
+    }
+  },
+  {
+    "simulation_id": "SIM_f4a34bdf",
+    "deployment_config": {
+      "provider": "IP7",
+      "instance_size": "c5.xlarge",
+      "pricing_model": "Spot",
+      "autoscaling": "vertical"
+    },
+    "cost_usd": 14.62,
+    "qos_metrics": {
+      "avg_response_time_ms": 1691,
+      "slo_violation_percent": 1.1
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 72.8,
+      "peak_ram_mb": 3176
+    }
+  },
+  {
+    "simulation_id": "SIM_5405e106",
+    "deployment_config": {
+      "provider": "IP6",
+      "instance_size": "m5.large",
+      "pricing_model": "Reserved",
+      "autoscaling": "none"
+    },
+    "cost_usd": 21.11,
+    "qos_metrics": {
+      "avg_response_time_ms": 848,
+      "slo_violation_percent": 0.3
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 95.6,
+      "peak_ram_mb": 10249
+    }
+  },
+  {
+    "simulation_id": "SIM_514136d0",
+    "deployment_config": {
+      "provider": "IP1",
+      "instance_size": "r5.2xlarge",
+      "pricing_model": "Spot",
+      "autoscaling": "vertical"
+    },
+    "cost_usd": 5.37,
+    "qos_metrics": {
+      "avg_response_time_ms": 607,
+      "slo_violation_percent": 1.1
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 74.7,
+      "peak_ram_mb": 16284
+    }
+  },
+  {
+    "simulation_id": "SIM_e9862cd8",
+    "deployment_config": {
+      "provider": "IP1",
+      "instance_size": "m5.large",
+      "pricing_model": "Spot",
+      "autoscaling": "none"
+    },
+    "cost_usd": 12.85,
+    "qos_metrics": {
+      "avg_response_time_ms": 926,
+      "slo_violation_percent": 0.6
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 69.9,
+      "peak_ram_mb": 9902
+    }
+  },
+  {
+    "simulation_id": "SIM_3dee530b",
+    "deployment_config": {
+      "provider": "IP7",
+      "instance_size": "c5.xlarge",
+      "pricing_model": "Reserved",
+      "autoscaling": "horizontal"
+    },
+    "cost_usd": 49.72,
+    "qos_metrics": {
+      "avg_response_time_ms": 2729,
+      "slo_violation_percent": 0.7
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 79.9,
+      "peak_ram_mb": 8922
+    }
+  },
+  {
+    "simulation_id": "SIM_778ba1d1",
+    "deployment_config": {
+      "provider": "IP7",
+      "instance_size": "t2.medium",
+      "pricing_model": "Reserved",
+      "autoscaling": "horizontal"
+    },
+    "cost_usd": 39.78,
+    "qos_metrics": {
+      "avg_response_time_ms": 2677,
+      "slo_violation_percent": 0.2
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 79.0,
+      "peak_ram_mb": 16137
+    }
+  },
+  {
+    "simulation_id": "SIM_5d6936a0",
+    "deployment_config": {
+      "provider": "IP7",
+      "instance_size": "r5.2xlarge",
+      "pricing_model": "Spot",
+      "autoscaling": "horizontal"
+    },
+    "cost_usd": 7.62,
+    "qos_metrics": {
+      "avg_response_time_ms": 1500,
+      "slo_violation_percent": 1.4
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 80.9,
+      "peak_ram_mb": 11978
+    }
+  },
+  {
+    "simulation_id": "SIM_9ab35b9d",
+    "deployment_config": {
+      "provider": "IP7",
+      "instance_size": "r5.2xlarge",
+      "pricing_model": "Reserved",
+      "autoscaling": "horizontal"
+    },
+    "cost_usd": 26.45,
+    "qos_metrics": {
+      "avg_response_time_ms": 1316,
+      "slo_violation_percent": 0.9
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 80.9,
+      "peak_ram_mb": 7522
+    }
+  },
+  {
+    "simulation_id": "SIM_bd9c5253",
+    "deployment_config": {
+      "provider": "IP1",
+      "instance_size": "r5.2xlarge",
+      "pricing_model": "Reserved",
+      "autoscaling": "vertical"
+    },
+    "cost_usd": 39.3,
+    "qos_metrics": {
+      "avg_response_time_ms": 2768,
+      "slo_violation_percent": 0.3
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 77.5,
+      "peak_ram_mb": 7342
+    }
+  },
+  {
+    "simulation_id": "SIM_4b6e9373",
+    "deployment_config": {
+      "provider": "IP6",
+      "instance_size": "t2.micro",
+      "pricing_model": "Spot",
+      "autoscaling": "none"
+    },
+    "cost_usd": 6.13,
+    "qos_metrics": {
+      "avg_response_time_ms": 895,
+      "slo_violation_percent": 0.3
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 66.3,
+      "peak_ram_mb": 3758
+    }
+  },
+  {
+    "simulation_id": "SIM_5464f79c",
+    "deployment_config": {
+      "provider": "IP7",
+      "instance_size": "c5.xlarge",
+      "pricing_model": "Reserved",
+      "autoscaling": "horizontal"
+    },
+    "cost_usd": 44.41,
+    "qos_metrics": {
+      "avg_response_time_ms": 2146,
+      "slo_violation_percent": 0.5
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 88.9,
+      "peak_ram_mb": 13749
+    }
+  },
+  {
+    "simulation_id": "SIM_1126bdbe",
+    "deployment_config": {
+      "provider": "IP1",
+      "instance_size": "c5.xlarge",
+      "pricing_model": "Reserved",
+      "autoscaling": "horizontal"
+    },
+    "cost_usd": 46.64,
+    "qos_metrics": {
+      "avg_response_time_ms": 760,
+      "slo_violation_percent": 1.1
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 73.3,
+      "peak_ram_mb": 2965
+    }
+  },
+  {
+    "simulation_id": "SIM_13a1dfd3",
+    "deployment_config": {
+      "provider": "IP7",
+      "instance_size": "r5.2xlarge",
+      "pricing_model": "Spot",
+      "autoscaling": "none"
+    },
+    "cost_usd": 26.66,
+    "qos_metrics": {
+      "avg_response_time_ms": 2882,
+      "slo_violation_percent": 1.2
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 85.6,
+      "peak_ram_mb": 5756
+    }
+  },
+  {
+    "simulation_id": "SIM_40006aee",
+    "deployment_config": {
+      "provider": "IP1",
+      "instance_size": "t2.micro",
+      "pricing_model": "OnDemand",
+      "autoscaling": "none"
+    },
+    "cost_usd": 18.19,
+    "qos_metrics": {
+      "avg_response_time_ms": 1423,
+      "slo_violation_percent": 0.4
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 88.7,
+      "peak_ram_mb": 16101
+    }
+  },
+  {
+    "simulation_id": "SIM_c6139f0e",
+    "deployment_config": {
+      "provider": "IP7",
+      "instance_size": "t2.micro",
+      "pricing_model": "Spot",
+      "autoscaling": "horizontal"
+    },
+    "cost_usd": 32.4,
+    "qos_metrics": {
+      "avg_response_time_ms": 1275,
+      "slo_violation_percent": 1.3
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 73.2,
+      "peak_ram_mb": 9022
+    }
+  },
+  {
+    "simulation_id": "SIM_0377c1dc",
+    "deployment_config": {
+      "provider": "IP7",
+      "instance_size": "m5.large",
+      "pricing_model": "Spot",
+      "autoscaling": "horizontal"
+    },
+    "cost_usd": 27.42,
+    "qos_metrics": {
+      "avg_response_time_ms": 2377,
+      "slo_violation_percent": 1.4
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 60.6,
+      "peak_ram_mb": 2441
+    }
+  },
+  {
+    "simulation_id": "SIM_0dc468f8",
+    "deployment_config": {
+      "provider": "IP6",
+      "instance_size": "c5.xlarge",
+      "pricing_model": "Spot",
+      "autoscaling": "vertical"
+    },
+    "cost_usd": 17.1,
+    "qos_metrics": {
+      "avg_response_time_ms": 2467,
+      "slo_violation_percent": 0.8
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 77.6,
+      "peak_ram_mb": 11808
+    }
+  },
+  {
+    "simulation_id": "SIM_d29ca691",
+    "deployment_config": {
+      "provider": "IP7",
+      "instance_size": "c5.xlarge",
+      "pricing_model": "Reserved",
+      "autoscaling": "none"
+    },
+    "cost_usd": 43.56,
+    "qos_metrics": {
+      "avg_response_time_ms": 971,
+      "slo_violation_percent": 1.1
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 74.9,
+      "peak_ram_mb": 14190
+    }
+  },
+  {
+    "simulation_id": "SIM_179960bf",
+    "deployment_config": {
+      "provider": "IP1",
+      "instance_size": "t2.medium",
+      "pricing_model": "Reserved",
+      "autoscaling": "horizontal"
+    },
+    "cost_usd": 18.02,
+    "qos_metrics": {
+      "avg_response_time_ms": 2054,
+      "slo_violation_percent": 0.1
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 75.3,
+      "peak_ram_mb": 6784
+    }
+  },
+  {
+    "simulation_id": "SIM_38266e79",
+    "deployment_config": {
+      "provider": "IP1",
+      "instance_size": "r5.2xlarge",
+      "pricing_model": "Spot",
+      "autoscaling": "none"
+    },
+    "cost_usd": 11.65,
+    "qos_metrics": {
+      "avg_response_time_ms": 2932,
+      "slo_violation_percent": 0.4
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 62.6,
+      "peak_ram_mb": 3168
+    }
+  },
+  {
+    "simulation_id": "SIM_3012ccda",
+    "deployment_config": {
+      "provider": "IP7",
+      "instance_size": "t2.micro",
+      "pricing_model": "OnDemand",
+      "autoscaling": "vertical"
+    },
+    "cost_usd": 34.71,
+    "qos_metrics": {
+      "avg_response_time_ms": 992,
+      "slo_violation_percent": 0.6
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 98.6,
+      "peak_ram_mb": 9103
+    }
+  },
+  {
+    "simulation_id": "SIM_7ef69874",
+    "deployment_config": {
+      "provider": "IP1",
+      "instance_size": "t2.micro",
+      "pricing_model": "Reserved",
+      "autoscaling": "vertical"
+    },
+    "cost_usd": 23.03,
+    "qos_metrics": {
+      "avg_response_time_ms": 1495,
+      "slo_violation_percent": 0.3
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 98.3,
+      "peak_ram_mb": 3373
+    }
+  },
+  {
+    "simulation_id": "SIM_28ef19d0",
+    "deployment_config": {
+      "provider": "IP6",
+      "instance_size": "t2.micro",
+      "pricing_model": "OnDemand",
+      "autoscaling": "horizontal"
+    },
+    "cost_usd": 15.2,
+    "qos_metrics": {
+      "avg_response_time_ms": 1995,
+      "slo_violation_percent": 0.5
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 76.9,
+      "peak_ram_mb": 11020
+    }
+  },
+  {
+    "simulation_id": "SIM_e99d3bf5",
+    "deployment_config": {
+      "provider": "IP1",
+      "instance_size": "m5.large",
+      "pricing_model": "Spot",
+      "autoscaling": "horizontal"
+    },
+    "cost_usd": 22.21,
+    "qos_metrics": {
+      "avg_response_time_ms": 1836,
+      "slo_violation_percent": 1.5
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 94.7,
+      "peak_ram_mb": 16072
+    }
+  },
+  {
+    "simulation_id": "SIM_d2e47e55",
+    "deployment_config": {
+      "provider": "IP1",
+      "instance_size": "t2.medium",
+      "pricing_model": "Spot",
+      "autoscaling": "none"
+    },
+    "cost_usd": 39.81,
+    "qos_metrics": {
+      "avg_response_time_ms": 2073,
+      "slo_violation_percent": 1.3
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 97.2,
+      "peak_ram_mb": 6639
+    }
+  },
+  {
+    "simulation_id": "SIM_fa33fd4f",
+    "deployment_config": {
+      "provider": "IP6",
+      "instance_size": "c5.xlarge",
+      "pricing_model": "OnDemand",
+      "autoscaling": "none"
+    },
+    "cost_usd": 9.03,
+    "qos_metrics": {
+      "avg_response_time_ms": 830,
+      "slo_violation_percent": 1.4
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 67.1,
+      "peak_ram_mb": 3412
+    }
+  },
+  {
+    "simulation_id": "SIM_ca581138",
+    "deployment_config": {
+      "provider": "IP6",
+      "instance_size": "r5.2xlarge",
+      "pricing_model": "OnDemand",
+      "autoscaling": "horizontal"
+    },
+    "cost_usd": 7.82,
+    "qos_metrics": {
+      "avg_response_time_ms": 780,
+      "slo_violation_percent": 0.2
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 65.7,
+      "peak_ram_mb": 4790
+    }
+  },
+  {
+    "simulation_id": "SIM_b749df99",
+    "deployment_config": {
+      "provider": "IP1",
+      "instance_size": "t2.medium",
+      "pricing_model": "OnDemand",
+      "autoscaling": "horizontal"
+    },
+    "cost_usd": 29.46,
+    "qos_metrics": {
+      "avg_response_time_ms": 1194,
+      "slo_violation_percent": 1.3
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 60.4,
+      "peak_ram_mb": 13293
+    }
+  },
+  {
+    "simulation_id": "SIM_315d1c5a",
+    "deployment_config": {
+      "provider": "IP6",
+      "instance_size": "t2.medium",
+      "pricing_model": "OnDemand",
+      "autoscaling": "vertical"
+    },
+    "cost_usd": 24.43,
+    "qos_metrics": {
+      "avg_response_time_ms": 1122,
+      "slo_violation_percent": 0.3
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 87.7,
+      "peak_ram_mb": 14429
+    }
+  },
+  {
+    "simulation_id": "SIM_42278f27",
+    "deployment_config": {
+      "provider": "IP7",
+      "instance_size": "t2.medium",
+      "pricing_model": "Reserved",
+      "autoscaling": "none"
+    },
+    "cost_usd": 11.62,
+    "qos_metrics": {
+      "avg_response_time_ms": 1153,
+      "slo_violation_percent": 0.8
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 86.0,
+      "peak_ram_mb": 12982
+    }
+  },
+  {
+    "simulation_id": "SIM_4685abdc",
+    "deployment_config": {
+      "provider": "IP7",
+      "instance_size": "r5.2xlarge",
+      "pricing_model": "Spot",
+      "autoscaling": "vertical"
+    },
+    "cost_usd": 17.51,
+    "qos_metrics": {
+      "avg_response_time_ms": 2630,
+      "slo_violation_percent": 0.5
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 95.4,
+      "peak_ram_mb": 12134
+    }
+  },
+  {
+    "simulation_id": "SIM_e7be0315",
+    "deployment_config": {
+      "provider": "IP6",
+      "instance_size": "m5.large",
+      "pricing_model": "Spot",
+      "autoscaling": "horizontal"
+    },
+    "cost_usd": 26.14,
+    "qos_metrics": {
+      "avg_response_time_ms": 1276,
+      "slo_violation_percent": 0.9
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 66.4,
+      "peak_ram_mb": 7715
+    }
+  },
+  {
+    "simulation_id": "SIM_d0b987c8",
+    "deployment_config": {
+      "provider": "IP1",
+      "instance_size": "c5.xlarge",
+      "pricing_model": "Spot",
+      "autoscaling": "vertical"
+    },
+    "cost_usd": 1.58,
+    "qos_metrics": {
+      "avg_response_time_ms": 1503,
+      "slo_violation_percent": 0.8
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 93.2,
+      "peak_ram_mb": 7228
+    }
+  },
+  {
+    "simulation_id": "SIM_5caebadf",
+    "deployment_config": {
+      "provider": "IP1",
+      "instance_size": "t2.micro",
+      "pricing_model": "Reserved",
+      "autoscaling": "vertical"
+    },
+    "cost_usd": 17.31,
+    "qos_metrics": {
+      "avg_response_time_ms": 1404,
+      "slo_violation_percent": 1.4
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 82.0,
+      "peak_ram_mb": 8420
+    }
+  },
+  {
+    "simulation_id": "SIM_4198edce",
+    "deployment_config": {
+      "provider": "IP7",
+      "instance_size": "t2.medium",
+      "pricing_model": "Reserved",
+      "autoscaling": "none"
+    },
+    "cost_usd": 46.47,
+    "qos_metrics": {
+      "avg_response_time_ms": 2397,
+      "slo_violation_percent": 1.2
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 85.0,
+      "peak_ram_mb": 14204
+    }
+  },
+  {
+    "simulation_id": "SIM_dc5e39b1",
+    "deployment_config": {
+      "provider": "IP1",
+      "instance_size": "t2.micro",
+      "pricing_model": "Reserved",
+      "autoscaling": "vertical"
+    },
+    "cost_usd": 15.21,
+    "qos_metrics": {
+      "avg_response_time_ms": 2048,
+      "slo_violation_percent": 0.1
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 77.6,
+      "peak_ram_mb": 14554
+    }
+  },
+  {
+    "simulation_id": "SIM_12a78b6d",
+    "deployment_config": {
+      "provider": "IP7",
+      "instance_size": "t2.micro",
+      "pricing_model": "Spot",
+      "autoscaling": "vertical"
+    },
+    "cost_usd": 30.12,
+    "qos_metrics": {
+      "avg_response_time_ms": 2508,
+      "slo_violation_percent": 0.3
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 91.8,
+      "peak_ram_mb": 3050
+    }
+  },
+  {
+    "simulation_id": "SIM_d2928d1e",
+    "deployment_config": {
+      "provider": "IP1",
+      "instance_size": "t2.micro",
+      "pricing_model": "Reserved",
+      "autoscaling": "none"
+    },
+    "cost_usd": 10.96,
+    "qos_metrics": {
+      "avg_response_time_ms": 2360,
+      "slo_violation_percent": 0.9
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 65.5,
+      "peak_ram_mb": 5937
+    }
+  },
+  {
+    "simulation_id": "SIM_246a345d",
+    "deployment_config": {
+      "provider": "IP1",
+      "instance_size": "c5.xlarge",
+      "pricing_model": "Spot",
+      "autoscaling": "none"
+    },
+    "cost_usd": 37.36,
+    "qos_metrics": {
+      "avg_response_time_ms": 1919,
+      "slo_violation_percent": 0.2
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 92.0,
+      "peak_ram_mb": 4911
+    }
+  },
+  {
+    "simulation_id": "SIM_65ec0966",
+    "deployment_config": {
+      "provider": "IP6",
+      "instance_size": "r5.2xlarge",
+      "pricing_model": "OnDemand",
+      "autoscaling": "none"
+    },
+    "cost_usd": 37.05,
+    "qos_metrics": {
+      "avg_response_time_ms": 560,
+      "slo_violation_percent": 1.2
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 94.0,
+      "peak_ram_mb": 11124
+    }
+  },
+  {
+    "simulation_id": "SIM_28c6d315",
+    "deployment_config": {
+      "provider": "IP7",
+      "instance_size": "m5.large",
+      "pricing_model": "Reserved",
+      "autoscaling": "none"
+    },
+    "cost_usd": 44.2,
+    "qos_metrics": {
+      "avg_response_time_ms": 872,
+      "slo_violation_percent": 1.0
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 98.0,
+      "peak_ram_mb": 11748
+    }
+  },
+  {
+    "simulation_id": "SIM_eb2e3552",
+    "deployment_config": {
+      "provider": "IP6",
+      "instance_size": "r5.2xlarge",
+      "pricing_model": "OnDemand",
+      "autoscaling": "horizontal"
+    },
+    "cost_usd": 3.62,
+    "qos_metrics": {
+      "avg_response_time_ms": 2607,
+      "slo_violation_percent": 0.8
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 66.4,
+      "peak_ram_mb": 8704
+    }
+  },
+  {
+    "simulation_id": "SIM_b3533fdb",
+    "deployment_config": {
+      "provider": "IP7",
+      "instance_size": "m5.large",
+      "pricing_model": "OnDemand",
+      "autoscaling": "horizontal"
+    },
+    "cost_usd": 8.23,
+    "qos_metrics": {
+      "avg_response_time_ms": 826,
+      "slo_violation_percent": 1.3
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 84.6,
+      "peak_ram_mb": 2987
+    }
+  },
+  {
+    "simulation_id": "SIM_35f5787b",
+    "deployment_config": {
+      "provider": "IP1",
+      "instance_size": "m5.large",
+      "pricing_model": "Reserved",
+      "autoscaling": "none"
+    },
+    "cost_usd": 26.07,
+    "qos_metrics": {
+      "avg_response_time_ms": 2847,
+      "slo_violation_percent": 1.5
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 63.6,
+      "peak_ram_mb": 7463
+    }
+  },
+  {
+    "simulation_id": "SIM_7890fb4c",
+    "deployment_config": {
+      "provider": "IP7",
+      "instance_size": "c5.xlarge",
+      "pricing_model": "OnDemand",
+      "autoscaling": "horizontal"
+    },
+    "cost_usd": 8.51,
+    "qos_metrics": {
+      "avg_response_time_ms": 886,
+      "slo_violation_percent": 1.3
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 71.8,
+      "peak_ram_mb": 5675
+    }
+  },
+  {
+    "simulation_id": "SIM_5a042a3e",
+    "deployment_config": {
+      "provider": "IP1",
+      "instance_size": "r5.2xlarge",
+      "pricing_model": "Spot",
+      "autoscaling": "vertical"
+    },
+    "cost_usd": 10.81,
+    "qos_metrics": {
+      "avg_response_time_ms": 1532,
+      "slo_violation_percent": 1.1
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 83.2,
+      "peak_ram_mb": 3171
+    }
+  },
+  {
+    "simulation_id": "SIM_d2d0fca4",
+    "deployment_config": {
+      "provider": "IP1",
+      "instance_size": "t2.micro",
+      "pricing_model": "Reserved",
+      "autoscaling": "none"
+    },
+    "cost_usd": 14.83,
+    "qos_metrics": {
+      "avg_response_time_ms": 2130,
+      "slo_violation_percent": 1.3
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 69.8,
+      "peak_ram_mb": 4451
+    }
+  },
+  {
+    "simulation_id": "SIM_4808af7d",
+    "deployment_config": {
+      "provider": "IP1",
+      "instance_size": "t2.medium",
+      "pricing_model": "Reserved",
+      "autoscaling": "none"
+    },
+    "cost_usd": 40.72,
+    "qos_metrics": {
+      "avg_response_time_ms": 2584,
+      "slo_violation_percent": 0.7
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 98.1,
+      "peak_ram_mb": 2135
+    }
+  },
+  {
+    "simulation_id": "SIM_68b4382b",
+    "deployment_config": {
+      "provider": "IP6",
+      "instance_size": "c5.xlarge",
+      "pricing_model": "OnDemand",
+      "autoscaling": "vertical"
+    },
+    "cost_usd": 34.85,
+    "qos_metrics": {
+      "avg_response_time_ms": 2784,
+      "slo_violation_percent": 0.2
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 73.0,
+      "peak_ram_mb": 10169
+    }
+  },
+  {
+    "simulation_id": "SIM_8641f45a",
+    "deployment_config": {
+      "provider": "IP1",
+      "instance_size": "t2.micro",
+      "pricing_model": "Spot",
+      "autoscaling": "horizontal"
+    },
+    "cost_usd": 12.02,
+    "qos_metrics": {
+      "avg_response_time_ms": 2060,
+      "slo_violation_percent": 0.8
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 68.8,
+      "peak_ram_mb": 14284
+    }
+  },
+  {
+    "simulation_id": "SIM_7e965e36",
+    "deployment_config": {
+      "provider": "IP7",
+      "instance_size": "m5.large",
+      "pricing_model": "Spot",
+      "autoscaling": "vertical"
+    },
+    "cost_usd": 18.14,
+    "qos_metrics": {
+      "avg_response_time_ms": 2769,
+      "slo_violation_percent": 1.0
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 76.9,
+      "peak_ram_mb": 7711
+    }
+  },
+  {
+    "simulation_id": "SIM_49b401d7",
+    "deployment_config": {
+      "provider": "IP1",
+      "instance_size": "m5.large",
+      "pricing_model": "Spot",
+      "autoscaling": "horizontal"
+    },
+    "cost_usd": 2.41,
+    "qos_metrics": {
+      "avg_response_time_ms": 1297,
+      "slo_violation_percent": 0.3
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 93.5,
+      "peak_ram_mb": 15710
+    }
+  },
+  {
+    "simulation_id": "SIM_9052373e",
+    "deployment_config": {
+      "provider": "IP1",
+      "instance_size": "c5.xlarge",
+      "pricing_model": "OnDemand",
+      "autoscaling": "horizontal"
+    },
+    "cost_usd": 5.89,
+    "qos_metrics": {
+      "avg_response_time_ms": 2175,
+      "slo_violation_percent": 0.9
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 88.6,
+      "peak_ram_mb": 7892
+    }
+  },
+  {
+    "simulation_id": "SIM_003c87bb",
+    "deployment_config": {
+      "provider": "IP7",
+      "instance_size": "c5.xlarge",
+      "pricing_model": "Spot",
+      "autoscaling": "vertical"
+    },
+    "cost_usd": 22.8,
+    "qos_metrics": {
+      "avg_response_time_ms": 774,
+      "slo_violation_percent": 0.8
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 87.9,
+      "peak_ram_mb": 3203
+    }
+  },
+  {
+    "simulation_id": "SIM_439cde84",
+    "deployment_config": {
+      "provider": "IP7",
+      "instance_size": "c5.xlarge",
+      "pricing_model": "Reserved",
+      "autoscaling": "vertical"
+    },
+    "cost_usd": 29.3,
+    "qos_metrics": {
+      "avg_response_time_ms": 2557,
+      "slo_violation_percent": 0.5
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 89.3,
+      "peak_ram_mb": 5648
+    }
+  },
+  {
+    "simulation_id": "SIM_b70be6dc",
+    "deployment_config": {
+      "provider": "IP6",
+      "instance_size": "t2.micro",
+      "pricing_model": "Reserved",
+      "autoscaling": "vertical"
+    },
+    "cost_usd": 21.66,
+    "qos_metrics": {
+      "avg_response_time_ms": 2706,
+      "slo_violation_percent": 0.4
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 88.8,
+      "peak_ram_mb": 4813
+    }
+  },
+  {
+    "simulation_id": "SIM_a0d360fa",
+    "deployment_config": {
+      "provider": "IP6",
+      "instance_size": "r5.2xlarge",
+      "pricing_model": "Spot",
+      "autoscaling": "vertical"
+    },
+    "cost_usd": 47.38,
+    "qos_metrics": {
+      "avg_response_time_ms": 2041,
+      "slo_violation_percent": 1.1
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 66.3,
+      "peak_ram_mb": 7520
+    }
+  },
+  {
+    "simulation_id": "SIM_2554adbb",
+    "deployment_config": {
+      "provider": "IP7",
+      "instance_size": "c5.xlarge",
+      "pricing_model": "Spot",
+      "autoscaling": "vertical"
+    },
+    "cost_usd": 46.07,
+    "qos_metrics": {
+      "avg_response_time_ms": 1975,
+      "slo_violation_percent": 1.3
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 84.7,
+      "peak_ram_mb": 2413
+    }
+  },
+  {
+    "simulation_id": "SIM_4e6cff41",
+    "deployment_config": {
+      "provider": "IP6",
+      "instance_size": "r5.2xlarge",
+      "pricing_model": "OnDemand",
+      "autoscaling": "horizontal"
+    },
+    "cost_usd": 12.55,
+    "qos_metrics": {
+      "avg_response_time_ms": 1256,
+      "slo_violation_percent": 0.6
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 75.7,
+      "peak_ram_mb": 8796
+    }
+  },
+  {
+    "simulation_id": "SIM_2941f0f1",
+    "deployment_config": {
+      "provider": "IP6",
+      "instance_size": "t2.micro",
+      "pricing_model": "OnDemand",
+      "autoscaling": "horizontal"
+    },
+    "cost_usd": 3.84,
+    "qos_metrics": {
+      "avg_response_time_ms": 2018,
+      "slo_violation_percent": 0.1
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 84.9,
+      "peak_ram_mb": 13358
+    }
+  },
+  {
+    "simulation_id": "SIM_6098b208",
+    "deployment_config": {
+      "provider": "IP7",
+      "instance_size": "t2.medium",
+      "pricing_model": "OnDemand",
+      "autoscaling": "horizontal"
+    },
+    "cost_usd": 30.98,
+    "qos_metrics": {
+      "avg_response_time_ms": 1086,
+      "slo_violation_percent": 0.7
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 94.5,
+      "peak_ram_mb": 7209
+    }
+  },
+  {
+    "simulation_id": "SIM_ea90fe84",
+    "deployment_config": {
+      "provider": "IP1",
+      "instance_size": "t2.medium",
+      "pricing_model": "Spot",
+      "autoscaling": "none"
+    },
+    "cost_usd": 35.65,
+    "qos_metrics": {
+      "avg_response_time_ms": 2348,
+      "slo_violation_percent": 1.4
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 69.4,
+      "peak_ram_mb": 14629
+    }
+  },
+  {
+    "simulation_id": "SIM_bb1ec591",
+    "deployment_config": {
+      "provider": "IP6",
+      "instance_size": "m5.large",
+      "pricing_model": "Reserved",
+      "autoscaling": "vertical"
+    },
+    "cost_usd": 12.5,
+    "qos_metrics": {
+      "avg_response_time_ms": 2773,
+      "slo_violation_percent": 0.7
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 87.2,
+      "peak_ram_mb": 4330
+    }
+  },
+  {
+    "simulation_id": "SIM_6892902e",
+    "deployment_config": {
+      "provider": "IP1",
+      "instance_size": "t2.medium",
+      "pricing_model": "Spot",
+      "autoscaling": "horizontal"
+    },
+    "cost_usd": 26.1,
+    "qos_metrics": {
+      "avg_response_time_ms": 2646,
+      "slo_violation_percent": 0.8
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 64.2,
+      "peak_ram_mb": 9290
+    }
+  },
+  {
+    "simulation_id": "SIM_83fa1ed6",
+    "deployment_config": {
+      "provider": "IP6",
+      "instance_size": "c5.xlarge",
+      "pricing_model": "OnDemand",
+      "autoscaling": "vertical"
+    },
+    "cost_usd": 25.67,
+    "qos_metrics": {
+      "avg_response_time_ms": 1479,
+      "slo_violation_percent": 0.2
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 64.7,
+      "peak_ram_mb": 15046
+    }
+  },
+  {
+    "simulation_id": "SIM_c4cf23bc",
+    "deployment_config": {
+      "provider": "IP1",
+      "instance_size": "r5.2xlarge",
+      "pricing_model": "OnDemand",
+      "autoscaling": "vertical"
+    },
+    "cost_usd": 36.09,
+    "qos_metrics": {
+      "avg_response_time_ms": 661,
+      "slo_violation_percent": 1.0
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 74.3,
+      "peak_ram_mb": 14198
+    }
+  },
+  {
+    "simulation_id": "SIM_c9147ccb",
+    "deployment_config": {
+      "provider": "IP7",
+      "instance_size": "c5.xlarge",
+      "pricing_model": "Reserved",
+      "autoscaling": "none"
+    },
+    "cost_usd": 46.43,
+    "qos_metrics": {
+      "avg_response_time_ms": 1226,
+      "slo_violation_percent": 1.2
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 60.2,
+      "peak_ram_mb": 2135
+    }
+  },
+  {
+    "simulation_id": "SIM_2ccd8f96",
+    "deployment_config": {
+      "provider": "IP7",
+      "instance_size": "r5.2xlarge",
+      "pricing_model": "OnDemand",
+      "autoscaling": "none"
+    },
+    "cost_usd": 18.93,
+    "qos_metrics": {
+      "avg_response_time_ms": 1950,
+      "slo_violation_percent": 0.3
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 65.0,
+      "peak_ram_mb": 3771
+    }
+  },
+  {
+    "simulation_id": "SIM_838af1fb",
+    "deployment_config": {
+      "provider": "IP1",
+      "instance_size": "t2.micro",
+      "pricing_model": "Reserved",
+      "autoscaling": "none"
+    },
+    "cost_usd": 16.53,
+    "qos_metrics": {
+      "avg_response_time_ms": 2413,
+      "slo_violation_percent": 1.3
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 97.6,
+      "peak_ram_mb": 14100
+    }
+  },
+  {
+    "simulation_id": "SIM_990a90db",
+    "deployment_config": {
+      "provider": "IP6",
+      "instance_size": "c5.xlarge",
+      "pricing_model": "Spot",
+      "autoscaling": "none"
+    },
+    "cost_usd": 13.1,
+    "qos_metrics": {
+      "avg_response_time_ms": 2985,
+      "slo_violation_percent": 0.3
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 61.2,
+      "peak_ram_mb": 6565
+    }
+  },
+  {
+    "simulation_id": "SIM_7de918cf",
+    "deployment_config": {
+      "provider": "IP7",
+      "instance_size": "m5.large",
+      "pricing_model": "Spot",
+      "autoscaling": "vertical"
+    },
+    "cost_usd": 15.31,
+    "qos_metrics": {
+      "avg_response_time_ms": 1490,
+      "slo_violation_percent": 0.2
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 88.6,
+      "peak_ram_mb": 12825
+    }
+  },
+  {
+    "simulation_id": "SIM_8ca37981",
+    "deployment_config": {
+      "provider": "IP6",
+      "instance_size": "t2.micro",
+      "pricing_model": "OnDemand",
+      "autoscaling": "horizontal"
+    },
+    "cost_usd": 7.7,
+    "qos_metrics": {
+      "avg_response_time_ms": 804,
+      "slo_violation_percent": 1.3
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 97.7,
+      "peak_ram_mb": 2595
+    }
+  },
+  {
+    "simulation_id": "SIM_3a60cf72",
+    "deployment_config": {
+      "provider": "IP7",
+      "instance_size": "m5.large",
+      "pricing_model": "OnDemand",
+      "autoscaling": "vertical"
+    },
+    "cost_usd": 6.43,
+    "qos_metrics": {
+      "avg_response_time_ms": 2228,
+      "slo_violation_percent": 0.9
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 60.2,
+      "peak_ram_mb": 12672
+    }
+  },
+  {
+    "simulation_id": "SIM_9e76b339",
+    "deployment_config": {
+      "provider": "IP7",
+      "instance_size": "c5.xlarge",
+      "pricing_model": "Spot",
+      "autoscaling": "none"
+    },
+    "cost_usd": 15.56,
+    "qos_metrics": {
+      "avg_response_time_ms": 2404,
+      "slo_violation_percent": 0.3
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 68.7,
+      "peak_ram_mb": 6997
+    }
+  },
+  {
+    "simulation_id": "SIM_ff14c5e2",
+    "deployment_config": {
+      "provider": "IP7",
+      "instance_size": "c5.xlarge",
+      "pricing_model": "Spot",
+      "autoscaling": "none"
+    },
+    "cost_usd": 19.12,
+    "qos_metrics": {
+      "avg_response_time_ms": 2949,
+      "slo_violation_percent": 0.1
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 84.7,
+      "peak_ram_mb": 13872
+    }
+  },
+  {
+    "simulation_id": "SIM_c1802a33",
+    "deployment_config": {
+      "provider": "IP1",
+      "instance_size": "m5.large",
+      "pricing_model": "Reserved",
+      "autoscaling": "vertical"
+    },
+    "cost_usd": 4.66,
+    "qos_metrics": {
+      "avg_response_time_ms": 898,
+      "slo_violation_percent": 0.4
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 87.3,
+      "peak_ram_mb": 10821
+    }
+  },
+  {
+    "simulation_id": "SIM_c52a92ea",
+    "deployment_config": {
+      "provider": "IP7",
+      "instance_size": "m5.large",
+      "pricing_model": "Reserved",
+      "autoscaling": "none"
+    },
+    "cost_usd": 48.99,
+    "qos_metrics": {
+      "avg_response_time_ms": 2161,
+      "slo_violation_percent": 0.4
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 98.0,
+      "peak_ram_mb": 12594
+    }
+  },
+  {
+    "simulation_id": "SIM_e4f0b3b5",
+    "deployment_config": {
+      "provider": "IP6",
+      "instance_size": "t2.micro",
+      "pricing_model": "OnDemand",
+      "autoscaling": "horizontal"
+    },
+    "cost_usd": 49.17,
+    "qos_metrics": {
+      "avg_response_time_ms": 2250,
+      "slo_violation_percent": 1.2
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 63.4,
+      "peak_ram_mb": 11732
+    }
+  },
+  {
+    "simulation_id": "SIM_ca13cc6d",
+    "deployment_config": {
+      "provider": "IP7",
+      "instance_size": "t2.micro",
+      "pricing_model": "Spot",
+      "autoscaling": "vertical"
+    },
+    "cost_usd": 18.71,
+    "qos_metrics": {
+      "avg_response_time_ms": 1021,
+      "slo_violation_percent": 1.0
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 79.7,
+      "peak_ram_mb": 4286
+    }
+  },
+  {
+    "simulation_id": "SIM_adc6fae3",
+    "deployment_config": {
+      "provider": "IP6",
+      "instance_size": "r5.2xlarge",
+      "pricing_model": "Spot",
+      "autoscaling": "vertical"
+    },
+    "cost_usd": 29.27,
+    "qos_metrics": {
+      "avg_response_time_ms": 2418,
+      "slo_violation_percent": 0.9
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 97.1,
+      "peak_ram_mb": 10627
+    }
+  },
+  {
+    "simulation_id": "SIM_3ebefa9d",
+    "deployment_config": {
+      "provider": "IP7",
+      "instance_size": "m5.large",
+      "pricing_model": "OnDemand",
+      "autoscaling": "none"
+    },
+    "cost_usd": 10.84,
+    "qos_metrics": {
+      "avg_response_time_ms": 2063,
+      "slo_violation_percent": 1.1
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 68.3,
+      "peak_ram_mb": 8256
+    }
+  },
+  {
+    "simulation_id": "SIM_d888a43d",
+    "deployment_config": {
+      "provider": "IP7",
+      "instance_size": "t2.micro",
+      "pricing_model": "Reserved",
+      "autoscaling": "none"
+    },
+    "cost_usd": 41.84,
+    "qos_metrics": {
+      "avg_response_time_ms": 1398,
+      "slo_violation_percent": 0.8
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 66.4,
+      "peak_ram_mb": 4425
+    }
+  },
+  {
+    "simulation_id": "SIM_cdac5345",
+    "deployment_config": {
+      "provider": "IP6",
+      "instance_size": "m5.large",
+      "pricing_model": "OnDemand",
+      "autoscaling": "vertical"
+    },
+    "cost_usd": 44.75,
+    "qos_metrics": {
+      "avg_response_time_ms": 1631,
+      "slo_violation_percent": 0.5
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 65.5,
+      "peak_ram_mb": 4897
+    }
+  },
+  {
+    "simulation_id": "SIM_7cec754b",
+    "deployment_config": {
+      "provider": "IP6",
+      "instance_size": "c5.xlarge",
+      "pricing_model": "Spot",
+      "autoscaling": "vertical"
+    },
+    "cost_usd": 11.0,
+    "qos_metrics": {
+      "avg_response_time_ms": 2477,
+      "slo_violation_percent": 1.1
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 93.3,
+      "peak_ram_mb": 10947
+    }
+  },
+  {
+    "simulation_id": "SIM_0c12187c",
+    "deployment_config": {
+      "provider": "IP7",
+      "instance_size": "t2.medium",
+      "pricing_model": "OnDemand",
+      "autoscaling": "vertical"
+    },
+    "cost_usd": 46.4,
+    "qos_metrics": {
+      "avg_response_time_ms": 2485,
+      "slo_violation_percent": 1.3
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 96.1,
+      "peak_ram_mb": 9394
+    }
+  },
+  {
+    "simulation_id": "SIM_ce2513b0",
+    "deployment_config": {
+      "provider": "IP1",
+      "instance_size": "m5.large",
+      "pricing_model": "OnDemand",
+      "autoscaling": "horizontal"
+    },
+    "cost_usd": 15.26,
+    "qos_metrics": {
+      "avg_response_time_ms": 2214,
+      "slo_violation_percent": 0.3
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 70.0,
+      "peak_ram_mb": 5297
+    }
+  },
+  {
+    "simulation_id": "SIM_9263c63d",
+    "deployment_config": {
+      "provider": "IP1",
+      "instance_size": "t2.medium",
+      "pricing_model": "OnDemand",
+      "autoscaling": "horizontal"
+    },
+    "cost_usd": 24.62,
+    "qos_metrics": {
+      "avg_response_time_ms": 1149,
+      "slo_violation_percent": 0.7
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 74.5,
+      "peak_ram_mb": 3379
+    }
+  },
+  {
+    "simulation_id": "SIM_2cc5d0f7",
+    "deployment_config": {
+      "provider": "IP7",
+      "instance_size": "r5.2xlarge",
+      "pricing_model": "OnDemand",
+      "autoscaling": "horizontal"
+    },
+    "cost_usd": 10.73,
+    "qos_metrics": {
+      "avg_response_time_ms": 1777,
+      "slo_violation_percent": 0.9
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 66.7,
+      "peak_ram_mb": 8143
+    }
+  },
+  {
+    "simulation_id": "SIM_7bf6b0e2",
+    "deployment_config": {
+      "provider": "IP6",
+      "instance_size": "r5.2xlarge",
+      "pricing_model": "Spot",
+      "autoscaling": "vertical"
+    },
+    "cost_usd": 2.81,
+    "qos_metrics": {
+      "avg_response_time_ms": 1486,
+      "slo_violation_percent": 1.4
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 82.0,
+      "peak_ram_mb": 7657
+    }
+  },
+  {
+    "simulation_id": "SIM_a02710e3",
+    "deployment_config": {
+      "provider": "IP6",
+      "instance_size": "c5.xlarge",
+      "pricing_model": "Spot",
+      "autoscaling": "horizontal"
+    },
+    "cost_usd": 32.55,
+    "qos_metrics": {
+      "avg_response_time_ms": 578,
+      "slo_violation_percent": 1.0
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 92.0,
+      "peak_ram_mb": 13636
+    }
+  },
+  {
+    "simulation_id": "SIM_7a0937ef",
+    "deployment_config": {
+      "provider": "IP6",
+      "instance_size": "t2.micro",
+      "pricing_model": "Reserved",
+      "autoscaling": "horizontal"
+    },
+    "cost_usd": 48.57,
+    "qos_metrics": {
+      "avg_response_time_ms": 1255,
+      "slo_violation_percent": 1.0
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 61.8,
+      "peak_ram_mb": 14725
+    }
+  },
+  {
+    "simulation_id": "SIM_2f34d28a",
+    "deployment_config": {
+      "provider": "IP7",
+      "instance_size": "t2.medium",
+      "pricing_model": "Spot",
+      "autoscaling": "vertical"
+    },
+    "cost_usd": 43.32,
+    "qos_metrics": {
+      "avg_response_time_ms": 2764,
+      "slo_violation_percent": 1.0
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 78.3,
+      "peak_ram_mb": 6761
+    }
+  },
+  {
+    "simulation_id": "SIM_4f66f041",
+    "deployment_config": {
+      "provider": "IP6",
+      "instance_size": "t2.medium",
+      "pricing_model": "Reserved",
+      "autoscaling": "horizontal"
+    },
+    "cost_usd": 46.12,
+    "qos_metrics": {
+      "avg_response_time_ms": 2244,
+      "slo_violation_percent": 0.5
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 76.5,
+      "peak_ram_mb": 13286
+    }
+  },
+  {
+    "simulation_id": "SIM_bca30106",
+    "deployment_config": {
+      "provider": "IP7",
+      "instance_size": "t2.micro",
+      "pricing_model": "Reserved",
+      "autoscaling": "horizontal"
+    },
+    "cost_usd": 12.59,
+    "qos_metrics": {
+      "avg_response_time_ms": 2064,
+      "slo_violation_percent": 1.0
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 78.6,
+      "peak_ram_mb": 5520
+    }
+  },
+  {
+    "simulation_id": "SIM_60156a19",
+    "deployment_config": {
+      "provider": "IP6",
+      "instance_size": "m5.large",
+      "pricing_model": "Reserved",
+      "autoscaling": "vertical"
+    },
+    "cost_usd": 25.56,
+    "qos_metrics": {
+      "avg_response_time_ms": 550,
+      "slo_violation_percent": 1.2
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 71.1,
+      "peak_ram_mb": 6765
+    }
+  },
+  {
+    "simulation_id": "SIM_5dc315f8",
+    "deployment_config": {
+      "provider": "IP1",
+      "instance_size": "m5.large",
+      "pricing_model": "Spot",
+      "autoscaling": "none"
+    },
+    "cost_usd": 23.67,
+    "qos_metrics": {
+      "avg_response_time_ms": 1734,
+      "slo_violation_percent": 0.5
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 77.6,
+      "peak_ram_mb": 7505
+    }
+  },
+  {
+    "simulation_id": "SIM_cf2ac0ab",
+    "deployment_config": {
+      "provider": "IP1",
+      "instance_size": "t2.micro",
+      "pricing_model": "Reserved",
+      "autoscaling": "none"
+    },
+    "cost_usd": 2.92,
+    "qos_metrics": {
+      "avg_response_time_ms": 2881,
+      "slo_violation_percent": 0.8
+    },
+    "resource_utilization": {
+      "peak_cpu_percent": 80.1,
+      "peak_ram_mb": 9508
+    }
+  }
+]

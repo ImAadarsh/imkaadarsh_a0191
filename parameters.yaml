@@ -1,0 +1,92 @@
+user_parameters:
+  application_specific:
+    application_type: "web" # Options: web, mobile, API, batch_processing
+    programming_language: "Python" # User's programming language/framework
+    request_response_size: "1MB" # Average size of requests/responses
+    concurrent_users: 1000 # Expected number of concurrent users
+    peak_traffic_times: "daily" # Options: daily, weekly, seasonal
+    data_sensitivity_level: "PII" # Options: PII, financial, general
+    required_uptime: "99.99%" # Uptime SLA requirement
+    deployment_frequency: "weekly" # Options: daily, weekly, monthly
+    rollback_requirements: "automated" # Options: manual, automated
+    third_party_integrations:
+      - payment_gateway ##### NOT EFFECT DEPLOYMENT CONFIG
+      - external_API ##### NOT EFFECT DEPLOYMENT CONFIG
+
+  infrastructure_related:
+    preferred_cloud_providers:
+      - aws
+      - azure
+      - gcp
+    deployment_regions:
+      - North_America
+      - Europe
+      - Asia_Pacific
+    instance_types: "compute-optimized" # Options: compute-optimized, memory-optimized
+    storage_type: "SSD" # Options: SSD, HDD, object_storage
+    network_bandwidth_requirements: "1Gbps"
+    auto_scaling_needs: "horizontal" # Options: vertical, horizontal
+    containerization_preferences: "Kubernetes" # Options: Docker, Kubernetes
+    database:
+      type: "SQL" # Options: SQL, NoSQL
+      size: "500GB"
+    cdn_usage_required: true # Boolean flag for CDN needs
+    backup_policy:
+      frequency: "daily"
+      retention_period_days: 30
+
+  performance_related:
+    target_latency_ms: 200 # Target latency in milliseconds
+    max_error_rate_percent: 1.0 # Maximum acceptable error rate as a percentage
+    throughput_rps: 1000 # Requests per second target throughput
+    iops_storage_requirement: 5000 # Input/output operations per second for storage
+    caching_requirements:
+      type: "Redis"
+      ttl_seconds: 3600 
+    load_balancing_strategy: "<Doubt>" ###########<Doubt>
+    max_cpu_utilization_percent: 75 # Maximum CPU utilization threshold as a percentage
+    max_memory_utilization_percent: 80 # Maximum memory utilization threshold as a percentage
+    response_time_under_peak_load_ms: 500 # Response time under peak load in milliseconds
+    failover_disaster_recovery_setup_required: true
+
+  security_and_compliance:
+    ssl_certificate_required:
+      provider: "LetsEncrypt"
+      auto_renewal_enabled: true
+    firewall_rules:
+      - source_ip_range: "192.168.1.0/24"
+        allowed_ports:
+          - 80
+          - 443
+      - source_ip_range: "10.0.0.0/16"
+        allowed_ports:
+          - 22
+    compliance_standards:
+      - GDPR
+      - HIPAA ############<Doubt>   ##### NOT EFFECT DEPLOYMENT CONFIG
+    authentication_method: "OAuth2" # Options include OAuth2, SAML, JWT
+    encryption_requirements:
+      data_at_rest_encrypted: true
+      data_in_transit_encrypted: true
+    access_control_policies:
+      rbac_enabled: true # Role-based access control enabled or not.
+      least_privilege_principle_enforced: true
+
+  user_experience_focused:
+    supported_platforms_devices:
+      - web_browser_desktop  ##### NOT EFFECT DEPLOYMENT CONFIG
+      - mobile_app_android_ios ##### NOT EFFECT DEPLOYMENT CONFIG 
+    browser_compatibility_requirements:  ##### NOT EFFECT DEPLOYMENT CONFIG
+      - Chrome_latest_version 
+      - Firefox_latest_version  
+      - Safari_latest_version  
+    localization_needs:
+      languages_supported:  ##### NOT EFFECT DEPLOYMENT CONFIG
+        - English_US
+        - Spanish_ES
+        - French_FR
+      regions_supported:
+        - North_America
+        - Europe_Western_EU_Countries 
+    downtime_tolerance_during_deployment_minutes : 20  
+    rollout_strategy-preference : blue, green

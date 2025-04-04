@@ -1,0 +1,174 @@
+Input: M: application service and cloud environment model parameters
+Input: IRcost: parameters list ranked by influence on service cost
+Input: IRqos: parameters list ranked by influence on service QoS
+Input: IP: list of infrastructure providers
+Input: SLO: list of QoS requirements defined via SLOs
+Input: location_constraint: location preference (0 if no constraint)
+Input: AS: application provider's decision on autoscaling
+Output: D: optimized deployment configuration
+
+function EnhancedDeploymentOptimizer(M, IRcost, IRqos, IP, SLO, location_constraint, AS)
+    D ← ∅
+    IR_coefficients_cost ← calculateIRCoefficients(IRcost)
+    IR_coefficients_qos ← calculateIRCoefficients(IRqos)
+    
+    // Identify primary optimization parameters
+    OPP_cost ← optimizationParameterPriorityList(IR_coefficients_cost)
+    OPP_qos ← optimizationParameterPriorityList(IR_coefficients_qos)
+    
+    // Calculate resource utilization weights
+    weights ← calculateResourceWeights(M, OPP_qos)
+    
+    // Generate candidate configurations
+    candidates ← generateCandidateConfigurations(IP, location_constraint, OPP_cost, weights)
+    
+    // Evaluate each candidate
+    best_config ← null
+    best_cost ← ∞
+    
+    foreach config in candidates do
+        // Simulate with dynamic scaling based on weights
+        qos_pass, cost, scaling_profile ← simulateWithWeightedScaling(M, config, SLO, weights, AS)
+        
+        if qos_pass and cost < best_cost then
+            best_config ← config
+            best_cost ← cost
+            best_scaling ← scaling_profile
+        end if
+    end foreach
+    
+    // Apply the best configuration
+    D ← best_config
+    D.scaling_profile ← best_scaling
+    
+    return D
+end function
+
+
+Weight-Based Scaling Decision
+=============================
+function calculateResourceWeights(M, OPP_qos)
+    // Initialize weights for CPU, RAM, Network, Storage
+    weights ← {CPU: 0.25, RAM: 0.25, Network: 0.25, Storage: 0.25}
+    
+    // Adjust weights based on QoS influence parameters
+    foreach param in OPP_qos do
+        if param.type == "CPU" then
+            weights.CPU += param.coefficient * 0.5
+        else if param.type == "RAM" then
+            weights.RAM += param.coefficient * 0.5
+        else if param.type == "Network" then
+            weights.Network += param.coefficient * 0.5
+        else if param.type == "Storage" then
+            weights.Storage += param.coefficient * 0.5
+        end if
+    end foreach
+    
+    // Normalize weights
+    total ← weights.CPU + weights.RAM + weights.Network + weights.Storage
+    weights.CPU /= total
+    weights.RAM /= total
+    weights.Network /= total
+    weights.Storage /= total
+    
+    return weights
+end function
+
+Weighted Scaling Simulation
+===========================
+function simulateWithWeightedScaling(M, config, SLO, weights, AS)
+    if AS == "no" then
+        return simulate(M, config, "no", SLO)
+    end if
+    
+    // Determine scaling thresholds based on weights
+    thresholds ← {
+        CPU: 70 - (weights.CPU * 20),    // Lower threshold for higher weight
+        RAM: 70 - (weights.RAM * 20),
+        Network: 70 - (weights.Network * 20),
+        Storage: 70 - (weights.Storage * 20)
+    }
+    
+    // Determine scaling strategy
+    horizontal_score ← weights.CPU * 0.3 + weights.Network * 0.7
+    vertical_score ← weights.RAM * 0.6 + weights.Storage * 0.4
+    
+    if horizontal_score > vertical_score then
+        primary_strategy ← "horizontal"
+        secondary_strategy ← "vertical"
+    else
+        primary_strategy ← "vertical"
+        secondary_strategy ← "horizontal"
+    end if
+    
+    // Simulate primary strategy
+    qos_pass_primary, cost_primary ← simulateWithStrategy(M, config, primary_strategy, thresholds, SLO)
+    
+    // If primary strategy fails, try secondary
+    if not qos_pass_primary then
+        qos_pass_secondary, cost_secondary ← simulateWithStrategy(M, config, secondary_strategy, thresholds, SLO)
+        
+        if qos_pass_secondary then
+            return qos_pass_secondary, cost_secondary, secondary_strategy
+        else
+            // Try hybrid approach if both individual strategies fail
+            qos_pass_hybrid, cost_hybrid ← simulateWithHybridStrategy(M, config, thresholds, SLO, weights)
+            return qos_pass_hybrid, cost_hybrid, "hybrid"
+        end if
+    end if
+    
+    return qos_pass_primary, cost_primary, primary_strategy
+end function
+
+
+Hybrid Scaling Strategy
+========================
+function simulateWithHybridStrategy(M, config, thresholds, SLO, weights)
+    // Create scaling rules based on resource weights
+    scaling_rules ← []
+    
+    // Add horizontal scaling for network-intensive workloads
+    if weights.Network > 0.3 then
+        scaling_rules.add({
+            resource: "Network",
+            threshold: thresholds.Network,
+            action: "horizontal",
+            priority: weights.Network * 10
+        })
+    end if
+    
+    // Add vertical scaling for RAM-intensive workloads
+    if weights.RAM > 0.3 then
+        scaling_rules.add({
+            resource: "RAM",
+            threshold: thresholds.RAM,
+            action: "vertical",
+            priority: weights.RAM * 10
+        })
+    end if
+    
+    // Add appropriate scaling for CPU based on its weight
+    if weights.CPU > 0.4 then
+        scaling_rules.add({
+            resource: "CPU",
+            threshold: thresholds.CPU,
+            action: "vertical",
+            priority: weights.CPU * 10
+        })
+    else
+        scaling_rules.add({
+            resource: "CPU",
+            threshold: thresholds.CPU,
+            action: "horizontal",
+            priority: weights.CPU * 8
+        })
+    end if
+    
+    // Sort rules by priority
+    scaling_rules.sortByPriority()
+    
+    // Simulate with hybrid scaling rules
+    return simulateWithCustomRules(M, config, scaling_rules, SLO)
+end function
+
+

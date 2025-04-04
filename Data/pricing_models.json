@@ -1,0 +1,112 @@
+[
+  {
+    "provider_id": "IP6",
+    "location": "Asia",
+    "pricing_models": [
+      {
+        "model_id": "Spot",
+        "instance_sizes": [
+          {
+            "type": "c5.xlarge",
+            "ram_mb": 8192,
+            "vcpus": 4,
+            "storage_gb": 80,
+            "hourly_cost_usd": 0.0607
+          }
+        ],
+        "network_costs": {
+          "ingress_usd_per_gb": 0.0496,
+          "egress_usd_per_gb": 0.0277
+        }
+      }
+    ]
+  },
+  {
+    "provider_id": "IP6",
+    "location": "Asia",
+    "pricing_models": [
+      {
+        "model_id": "Reserved",
+        "instance_sizes": [
+          {
+            "type": "t2.medium",
+            "ram_mb": 4096,
+            "vcpus": 2,
+            "storage_gb": 20,
+            "hourly_cost_usd": 0.3061
+          }
+        ],
+        "network_costs": {
+          "ingress_usd_per_gb": 0.039,
+          "egress_usd_per_gb": 0.0509
+        }
+      }
+    ]
+  },
+  {
+    "provider_id": "IP7",
+    "location": "Asia",
+    "pricing_models": [
+      {
+        "model_id": "Spot",
+        "instance_sizes": [
+          {
+            "type": "r5.2xlarge",
+            "ram_mb": 16384,
+            "vcpus": 8,
+            "storage_gb": 160,
+            "hourly_cost_usd": 0.4026
+          }
+        ],
+        "network_costs": {
+          "ingress_usd_per_gb": 0.0088,
+          "egress_usd_per_gb": 0.0987
+        }
+      }
+    ]
+  },
+  {
+    "provider_id": "IP7",
+    "location": "USA",
+    "pricing_models": [
+      {
+        "model_id": "Spot",
+        "instance_sizes": [
+          {
+            "type": "t2.medium",
+            "ram_mb": 4096,
+            "vcpus": 2,
+            "storage_gb": 20,
+            "hourly_cost_usd": 0.2286
+          }
+        ],
+        "network_costs": {
+          "ingress_usd_per_gb": 0.004,
+          "egress_usd_per_gb": 0.1083
+        }
+      }
+    ]
+  },
+  {
+    "provider_id": "IP1",
+    "location": "Asia",
+    "pricing_models": [
+      {
+        "model_id": "Reserved",
+        "instance_sizes": [
+          {
+            "type": "r5.2xlarge",
+            "ram_mb": 16384,
+            "vcpus": 8,
+            "storage_gb": 160,
+            "hourly_cost_usd": 0.2945
+          }
+        ],
+        "network_costs": {
+          "ingress_usd_per_gb": 0.0017,
+          "egress_usd_per_gb": 0.1217
+        }
+      }
+    ]
+  }
+]

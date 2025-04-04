@@ -1,0 +1,2202 @@
+[
+  {
+    "service_id": "SVC_0",
+    "timestamp": "2025-02-16T00:03:53.474359",
+    "resource_usage": {
+      "cpu_utilization_percent": 75.6,
+      "ram_usage_mb": 766,
+      "network_ingress_gb": 1.1,
+      "network_egress_gb": 44.4,
+      "storage_usage_gb": 11.9,
+      "disk_read_rate_mbps": 10.2,
+      "disk_write_rate_mbps": 19.0
+    },
+    "qos_metrics": {
+      "response_time_ms": 1512,
+      "slo_violation_percent": 0.9
+    },
+    "workload": {
+      "concurrent_users": 94,
+      "user_type": "medical_record_query",
+      "scenario": "burst"
+    }
+  },
+  {
+    "service_id": "SVC_1",
+    "timestamp": "2025-02-21T15:44:47.508795",
+    "resource_usage": {
+      "cpu_utilization_percent": 65.3,
+      "ram_usage_mb": 5345,
+      "network_ingress_gb": 1.7,
+      "network_egress_gb": 27.6,
+      "storage_usage_gb": 35.3,
+      "disk_read_rate_mbps": 68.1,
+      "disk_write_rate_mbps": 46.0
+    },
+    "qos_metrics": {
+      "response_time_ms": 4028,
+      "slo_violation_percent": 1.1
+    },
+    "workload": {
+      "concurrent_users": 134,
+      "user_type": "iot_data",
+      "scenario": "dynamic"
+    }
+  },
+  {
+    "service_id": "SVC_2",
+    "timestamp": "2025-02-26T18:41:58.759964",
+    "resource_usage": {
+      "cpu_utilization_percent": 65.3,
+      "ram_usage_mb": 11631,
+      "network_ingress_gb": 2.1,
+      "network_egress_gb": 32.5,
+      "storage_usage_gb": 91.5,
+      "disk_read_rate_mbps": 53.4,
+      "disk_write_rate_mbps": 34.0
+    },
+    "qos_metrics": {
+      "response_time_ms": 2129,
+      "slo_violation_percent": 3.0
+    },
+    "workload": {
+      "concurrent_users": 35,
+      "user_type": "iot_data",
+      "scenario": "dynamic"
+    }
+  },
+  {
+    "service_id": "SVC_3",
+    "timestamp": "2025-02-15T02:15:43.887790",
+    "resource_usage": {
+      "cpu_utilization_percent": 94.4,
+      "ram_usage_mb": 8068,
+      "network_ingress_gb": 2.6,
+      "network_egress_gb": 13.8,
+      "storage_usage_gb": 72.5,
+      "disk_read_rate_mbps": 14.6,
+      "disk_write_rate_mbps": 43.0
+    },
+    "qos_metrics": {
+      "response_time_ms": 1211,
+      "slo_violation_percent": 3.3
+    },
+    "workload": {
+      "concurrent_users": 59,
+      "user_type": "iot_data",
+      "scenario": "burst"
+    }
+  },
+  {
+    "service_id": "SVC_4",
+    "timestamp": "2025-03-05T18:20:10.696499",
+    "resource_usage": {
+      "cpu_utilization_percent": 47.4,
+      "ram_usage_mb": 12761,
+      "network_ingress_gb": 1.3,
+      "network_egress_gb": 7.8,
+      "storage_usage_gb": 55.0,
+      "disk_read_rate_mbps": 23.8,
+      "disk_write_rate_mbps": 26.0
+    },
+    "qos_metrics": {
+      "response_time_ms": 2438,
+      "slo_violation_percent": 0.4
+    },
+    "workload": {
+      "concurrent_users": 53,
+      "user_type": "financial_transaction",
+      "scenario": "rapid_growth"
+    }
+  },
+  {
+    "service_id": "SVC_5",
+    "timestamp": "2025-02-15T06:26:20.022901",
+    "resource_usage": {
+      "cpu_utilization_percent": 48.1,
+      "ram_usage_mb": 11211,
+      "network_ingress_gb": 1.3,
+      "network_egress_gb": 42.6,
+      "storage_usage_gb": 70.8,
+      "disk_read_rate_mbps": 14.7,
+      "disk_write_rate_mbps": 36.7
+    },
+    "qos_metrics": {
+      "response_time_ms": 4300,
+      "slo_violation_percent": 1.3
+    },
+    "workload": {
+      "concurrent_users": 110,
+      "user_type": "video_streaming",
+      "scenario": "dynamic"
+    }
+  },
+  {
+    "service_id": "SVC_6",
+    "timestamp": "2025-03-03T15:51:45.239342",
+    "resource_usage": {
+      "cpu_utilization_percent": 64.9,
+      "ram_usage_mb": 14183,
+      "network_ingress_gb": 2.8,
+      "network_egress_gb": 12.7,
+      "storage_usage_gb": 85.1,
+      "disk_read_rate_mbps": 60.7,
+      "disk_write_rate_mbps": 27.9
+    },
+    "qos_metrics": {
+      "response_time_ms": 2151,
+      "slo_violation_percent": 1.3
+    },
+    "workload": {
+      "concurrent_users": 128,
+      "user_type": "medical_record_query",
+      "scenario": "burst"
+    }
+  },
+  {
+    "service_id": "SVC_7",
+    "timestamp": "2025-02-15T08:40:32.584136",
+    "resource_usage": {
+      "cpu_utilization_percent": 16.9,
+      "ram_usage_mb": 16321,
+      "network_ingress_gb": 2.5,
+      "network_egress_gb": 20.2,
+      "storage_usage_gb": 58.9,
+      "disk_read_rate_mbps": 96.3,
+      "disk_write_rate_mbps": 33.4
+    },
+    "qos_metrics": {
+      "response_time_ms": 2946,
+      "slo_violation_percent": 1.0
+    },
+    "workload": {
+      "concurrent_users": 141,
+      "user_type": "video_streaming",
+      "scenario": "dynamic"
+    }
+  },
+  {
+    "service_id": "SVC_8",
+    "timestamp": "2025-03-10T04:37:09.523550",
+    "resource_usage": {
+      "cpu_utilization_percent": 73.5,
+      "ram_usage_mb": 7391,
+      "network_ingress_gb": 1.9,
+      "network_egress_gb": 43.2,
+      "storage_usage_gb": 83.1,
+      "disk_read_rate_mbps": 93.4,
+      "disk_write_rate_mbps": 47.9
+    },
+    "qos_metrics": {
+      "response_time_ms": 2981,
+      "slo_violation_percent": 3.4
+    },
+    "workload": {
+      "concurrent_users": 89,
+      "user_type": "financial_transaction",
+      "scenario": "rapid_growth"
+    }
+  },
+  {
+    "service_id": "SVC_9",
+    "timestamp": "2025-03-12T03:40:59.144855",
+    "resource_usage": {
+      "cpu_utilization_percent": 11.1,
+      "ram_usage_mb": 1491,
+      "network_ingress_gb": 1.1,
+      "network_egress_gb": 48.5,
+      "storage_usage_gb": 79.9,
+      "disk_read_rate_mbps": 46.7,
+      "disk_write_rate_mbps": 6.1
+    },
+    "qos_metrics": {
+      "response_time_ms": 3816,
+      "slo_violation_percent": 5.0
+    },
+    "workload": {
+      "concurrent_users": 128,
+      "user_type": "video_streaming",
+      "scenario": "dynamic"
+    }
+  },
+  {
+    "service_id": "SVC_10",
+    "timestamp": "2025-03-06T02:06:19.421848",
+    "resource_usage": {
+      "cpu_utilization_percent": 12.3,
+      "ram_usage_mb": 8569,
+      "network_ingress_gb": 4.9,
+      "network_egress_gb": 46.2,
+      "storage_usage_gb": 9.1,
+      "disk_read_rate_mbps": 51.9,
+      "disk_write_rate_mbps": 46.4
+    },
+    "qos_metrics": {
+      "response_time_ms": 3008,
+      "slo_violation_percent": 2.2
+    },
+    "workload": {
+      "concurrent_users": 15,
+      "user_type": "medical_record_query",
+      "scenario": "dynamic"
+    }
+  },
+  {
+    "service_id": "SVC_11",
+    "timestamp": "2025-02-21T21:28:06.700787",
+    "resource_usage": {
+      "cpu_utilization_percent": 83.6,
+      "ram_usage_mb": 5558,
+      "network_ingress_gb": 2.0,
+      "network_egress_gb": 21.4,
+      "storage_usage_gb": 40.3,
+      "disk_read_rate_mbps": 39.1,
+      "disk_write_rate_mbps": 7.6
+    },
+    "qos_metrics": {
+      "response_time_ms": 1023,
+      "slo_violation_percent": 2.3
+    },
+    "workload": {
+      "concurrent_users": 59,
+      "user_type": "iot_data",
+      "scenario": "rapid_growth"
+    }
+  },
+  {
+    "service_id": "SVC_12",
+    "timestamp": "2025-03-08T19:30:24.089653",
+    "resource_usage": {
+      "cpu_utilization_percent": 42.8,
+      "ram_usage_mb": 11041,
+      "network_ingress_gb": 3.4,
+      "network_egress_gb": 35.3,
+      "storage_usage_gb": 21.8,
+      "disk_read_rate_mbps": 66.5,
+      "disk_write_rate_mbps": 23.5
+    },
+    "qos_metrics": {
+      "response_time_ms": 4094,
+      "slo_violation_percent": 4.9
+    },
+    "workload": {
+      "concurrent_users": 132,
+      "user_type": "financial_transaction",
+      "scenario": "dynamic"
+    }
+  },
+  {
+    "service_id": "SVC_13",
+    "timestamp": "2025-03-04T21:45:33.408834",
+    "resource_usage": {
+      "cpu_utilization_percent": 34.8,
+      "ram_usage_mb": 13211,
+      "network_ingress_gb": 4.5,
+      "network_egress_gb": 41.2,
+      "storage_usage_gb": 8.7,
+      "disk_read_rate_mbps": 18.8,
+      "disk_write_rate_mbps": 43.5
+    },
+    "qos_metrics": {
+      "response_time_ms": 3408,
+      "slo_violation_percent": 1.3
+    },
+    "workload": {
+      "concurrent_users": 142,
+      "user_type": "video_streaming",
+      "scenario": "rapid_growth"
+    }
+  },
+  {
+    "service_id": "SVC_14",
+    "timestamp": "2025-02-19T22:10:33.529858",
+    "resource_usage": {
+      "cpu_utilization_percent": 16.5,
+      "ram_usage_mb": 6964,
+      "network_ingress_gb": 2.4,
+      "network_egress_gb": 31.8,
+      "storage_usage_gb": 19.4,
+      "disk_read_rate_mbps": 71.3,
+      "disk_write_rate_mbps": 33.2
+    },
+    "qos_metrics": {
+      "response_time_ms": 3072,
+      "slo_violation_percent": 4.6
+    },
+    "workload": {
+      "concurrent_users": 189,
+      "user_type": "medical_record_query",
+      "scenario": "rapid_growth"
+    }
+  },
+  {
+    "service_id": "SVC_15",
+    "timestamp": "2025-02-13T09:32:02.345835",
+    "resource_usage": {
+      "cpu_utilization_percent": 83.6,
+      "ram_usage_mb": 519,
+      "network_ingress_gb": 0.6,
+      "network_egress_gb": 2.9,
+      "storage_usage_gb": 96.9,
+      "disk_read_rate_mbps": 72.0,
+      "disk_write_rate_mbps": 19.6
+    },
+    "qos_metrics": {
+      "response_time_ms": 1019,
+      "slo_violation_percent": 2.9
+    },
+    "workload": {
+      "concurrent_users": 166,
+      "user_type": "financial_transaction",
+      "scenario": "burst"
+    }
+  },
+  {
+    "service_id": "SVC_16",
+    "timestamp": "2025-03-01T02:58:59.234968",
+    "resource_usage": {
+      "cpu_utilization_percent": 63.4,
+      "ram_usage_mb": 13315,
+      "network_ingress_gb": 2.1,
+      "network_egress_gb": 10.7,
+      "storage_usage_gb": 17.4,
+      "disk_read_rate_mbps": 70.1,
+      "disk_write_rate_mbps": 20.3
+    },
+    "qos_metrics": {
+      "response_time_ms": 2256,
+      "slo_violation_percent": 4.0
+    },
+    "workload": {
+      "concurrent_users": 147,
+      "user_type": "video_streaming",
+      "scenario": "burst"
+    }
+  },
+  {
+    "service_id": "SVC_17",
+    "timestamp": "2025-03-11T12:33:16.283842",
+    "resource_usage": {
+      "cpu_utilization_percent": 21.1,
+      "ram_usage_mb": 15455,
+      "network_ingress_gb": 4.5,
+      "network_egress_gb": 7.1,
+      "storage_usage_gb": 17.8,
+      "disk_read_rate_mbps": 87.2,
+      "disk_write_rate_mbps": 21.5
+    },
+    "qos_metrics": {
+      "response_time_ms": 4081,
+      "slo_violation_percent": 4.7
+    },
+    "workload": {
+      "concurrent_users": 158,
+      "user_type": "iot_data",
+      "scenario": "rapid_growth"
+    }
+  },
+  {
+    "service_id": "SVC_18",
+    "timestamp": "2025-02-10T16:40:45.168154",
+    "resource_usage": {
+      "cpu_utilization_percent": 79.7,
+      "ram_usage_mb": 3078,
+      "network_ingress_gb": 1.5,
+      "network_egress_gb": 30.6,
+      "storage_usage_gb": 52.3,
+      "disk_read_rate_mbps": 32.3,
+      "disk_write_rate_mbps": 15.7
+    },
+    "qos_metrics": {
+      "response_time_ms": 3841,
+      "slo_violation_percent": 1.9
+    },
+    "workload": {
+      "concurrent_users": 77,
+      "user_type": "medical_record_query",
+      "scenario": "dynamic"
+    }
+  },
+  {
+    "service_id": "SVC_19",
+    "timestamp": "2025-03-05T01:54:08.066710",
+    "resource_usage": {
+      "cpu_utilization_percent": 88.4,
+      "ram_usage_mb": 6905,
+      "network_ingress_gb": 4.9,
+      "network_egress_gb": 2.9,
+      "storage_usage_gb": 14.5,
+      "disk_read_rate_mbps": 16.7,
+      "disk_write_rate_mbps": 33.7
+    },
+    "qos_metrics": {
+      "response_time_ms": 1413,
+      "slo_violation_percent": 1.0
+    },
+    "workload": {
+      "concurrent_users": 147,
+      "user_type": "financial_transaction",
+      "scenario": "rapid_growth"
+    }
+  },
+  {
+    "service_id": "SVC_20",
+    "timestamp": "2025-03-10T00:48:39.199338",
+    "resource_usage": {
+      "cpu_utilization_percent": 70.1,
+      "ram_usage_mb": 6777,
+      "network_ingress_gb": 0.2,
+      "network_egress_gb": 29.2,
+      "storage_usage_gb": 54.0,
+      "disk_read_rate_mbps": 65.4,
+      "disk_write_rate_mbps": 42.8
+    },
+    "qos_metrics": {
+      "response_time_ms": 3158,
+      "slo_violation_percent": 1.4
+    },
+    "workload": {
+      "concurrent_users": 83,
+      "user_type": "video_streaming",
+      "scenario": "dynamic"
+    }
+  },
+  {
+    "service_id": "SVC_21",
+    "timestamp": "2025-03-02T21:56:34.748946",
+    "resource_usage": {
+      "cpu_utilization_percent": 84.6,
+      "ram_usage_mb": 9630,
+      "network_ingress_gb": 4.6,
+      "network_egress_gb": 31.8,
+      "storage_usage_gb": 71.8,
+      "disk_read_rate_mbps": 79.6,
+      "disk_write_rate_mbps": 25.3
+    },
+    "qos_metrics": {
+      "response_time_ms": 1353,
+      "slo_violation_percent": 4.7
+    },
+    "workload": {
+      "concurrent_users": 155,
+      "user_type": "financial_transaction",
+      "scenario": "burst"
+    }
+  },
+  {
+    "service_id": "SVC_22",
+    "timestamp": "2025-02-21T19:30:40.856545",
+    "resource_usage": {
+      "cpu_utilization_percent": 51.1,
+      "ram_usage_mb": 8420,
+      "network_ingress_gb": 3.0,
+      "network_egress_gb": 39.4,
+      "storage_usage_gb": 69.7,
+      "disk_read_rate_mbps": 80.5,
+      "disk_write_rate_mbps": 7.4
+    },
+    "qos_metrics": {
+      "response_time_ms": 1942,
+      "slo_violation_percent": 3.2
+    },
+    "workload": {
+      "concurrent_users": 41,
+      "user_type": "iot_data",
+      "scenario": "burst"
+    }
+  },
+  {
+    "service_id": "SVC_23",
+    "timestamp": "2025-02-22T20:16:10.448442",
+    "resource_usage": {
+      "cpu_utilization_percent": 54.8,
+      "ram_usage_mb": 1718,
+      "network_ingress_gb": 2.7,
+      "network_egress_gb": 38.0,
+      "storage_usage_gb": 92.2,
+      "disk_read_rate_mbps": 46.6,
+      "disk_write_rate_mbps": 37.4
+    },
+    "qos_metrics": {
+      "response_time_ms": 3021,
+      "slo_violation_percent": 3.5
+    },
+    "workload": {
+      "concurrent_users": 104,
+      "user_type": "iot_data",
+      "scenario": "burst"
+    }
+  },
+  {
+    "service_id": "SVC_24",
+    "timestamp": "2025-02-24T08:18:15.370791",
+    "resource_usage": {
+      "cpu_utilization_percent": 40.2,
+      "ram_usage_mb": 12764,
+      "network_ingress_gb": 0.5,
+      "network_egress_gb": 19.1,
+      "storage_usage_gb": 62.6,
+      "disk_read_rate_mbps": 90.7,
+      "disk_write_rate_mbps": 16.6
+    },
+    "qos_metrics": {
+      "response_time_ms": 935,
+      "slo_violation_percent": 1.8
+    },
+    "workload": {
+      "concurrent_users": 188,
+      "user_type": "medical_record_query",
+      "scenario": "burst"
+    }
+  },
+  {
+    "service_id": "SVC_25",
+    "timestamp": "2025-02-15T08:30:01.632637",
+    "resource_usage": {
+      "cpu_utilization_percent": 89.6,
+      "ram_usage_mb": 11968,
+      "network_ingress_gb": 1.2,
+      "network_egress_gb": 28.6,
+      "storage_usage_gb": 22.5,
+      "disk_read_rate_mbps": 15.0,
+      "disk_write_rate_mbps": 16.2
+    },
+    "qos_metrics": {
+      "response_time_ms": 1970,
+      "slo_violation_percent": 1.0
+    },
+    "workload": {
+      "concurrent_users": 103,
+      "user_type": "video_streaming",
+      "scenario": "burst"
+    }
+  },
+  {
+    "service_id": "SVC_26",
+    "timestamp": "2025-02-14T01:29:29.391146",
+    "resource_usage": {
+      "cpu_utilization_percent": 72.3,
+      "ram_usage_mb": 14603,
+      "network_ingress_gb": 4.2,
+      "network_egress_gb": 41.7,
+      "storage_usage_gb": 92.9,
+      "disk_read_rate_mbps": 91.5,
+      "disk_write_rate_mbps": 10.4
+    },
+    "qos_metrics": {
+      "response_time_ms": 2784,
+      "slo_violation_percent": 4.9
+    },
+    "workload": {
+      "concurrent_users": 98,
+      "user_type": "medical_record_query",
+      "scenario": "dynamic"
+    }
+  },
+  {
+    "service_id": "SVC_27",
+    "timestamp": "2025-02-23T17:22:12.071883",
+    "resource_usage": {
+      "cpu_utilization_percent": 40.4,
+      "ram_usage_mb": 13521,
+      "network_ingress_gb": 4.3,
+      "network_egress_gb": 28.4,
+      "storage_usage_gb": 76.5,
+      "disk_read_rate_mbps": 26.2,
+      "disk_write_rate_mbps": 48.0
+    },
+    "qos_metrics": {
+      "response_time_ms": 3428,
+      "slo_violation_percent": 1.9
+    },
+    "workload": {
+      "concurrent_users": 132,
+      "user_type": "medical_record_query",
+      "scenario": "rapid_growth"
+    }
+  },
+  {
+    "service_id": "SVC_28",
+    "timestamp": "2025-02-22T21:45:43.824978",
+    "resource_usage": {
+      "cpu_utilization_percent": 23.9,
+      "ram_usage_mb": 2750,
+      "network_ingress_gb": 3.9,
+      "network_egress_gb": 8.7,
+      "storage_usage_gb": 73.6,
+      "disk_read_rate_mbps": 10.5,
+      "disk_write_rate_mbps": 33.6
+    },
+    "qos_metrics": {
+      "response_time_ms": 1365,
+      "slo_violation_percent": 2.6
+    },
+    "workload": {
+      "concurrent_users": 67,
+      "user_type": "medical_record_query",
+      "scenario": "dynamic"
+    }
+  },
+  {
+    "service_id": "SVC_29",
+    "timestamp": "2025-03-08T18:19:46.533850",
+    "resource_usage": {
+      "cpu_utilization_percent": 61.7,
+      "ram_usage_mb": 1296,
+      "network_ingress_gb": 3.0,
+      "network_egress_gb": 3.5,
+      "storage_usage_gb": 85.8,
+      "disk_read_rate_mbps": 31.9,
+      "disk_write_rate_mbps": 17.4
+    },
+    "qos_metrics": {
+      "response_time_ms": 3339,
+      "slo_violation_percent": 4.4
+    },
+    "workload": {
+      "concurrent_users": 93,
+      "user_type": "financial_transaction",
+      "scenario": "rapid_growth"
+    }
+  },
+  {
+    "service_id": "SVC_30",
+    "timestamp": "2025-03-01T13:58:09.286738",
+    "resource_usage": {
+      "cpu_utilization_percent": 87.1,
+      "ram_usage_mb": 7486,
+      "network_ingress_gb": 0.9,
+      "network_egress_gb": 1.7,
+      "storage_usage_gb": 26.0,
+      "disk_read_rate_mbps": 74.6,
+      "disk_write_rate_mbps": 11.4
+    },
+    "qos_metrics": {
+      "response_time_ms": 1326,
+      "slo_violation_percent": 2.9
+    },
+    "workload": {
+      "concurrent_users": 12,
+      "user_type": "medical_record_query",
+      "scenario": "burst"
+    }
+  },
+  {
+    "service_id": "SVC_31",
+    "timestamp": "2025-02-17T05:46:24.702757",
+    "resource_usage": {
+      "cpu_utilization_percent": 18.5,
+      "ram_usage_mb": 10767,
+      "network_ingress_gb": 1.6,
+      "network_egress_gb": 47.8,
+      "storage_usage_gb": 83.7,
+      "disk_read_rate_mbps": 42.8,
+      "disk_write_rate_mbps": 30.6
+    },
+    "qos_metrics": {
+      "response_time_ms": 1778,
+      "slo_violation_percent": 0.6
+    },
+    "workload": {
+      "concurrent_users": 42,
+      "user_type": "financial_transaction",
+      "scenario": "rapid_growth"
+    }
+  },
+  {
+    "service_id": "SVC_32",
+    "timestamp": "2025-03-06T19:36:42.779583",
+    "resource_usage": {
+      "cpu_utilization_percent": 94.8,
+      "ram_usage_mb": 14714,
+      "network_ingress_gb": 2.3,
+      "network_egress_gb": 14.4,
+      "storage_usage_gb": 79.4,
+      "disk_read_rate_mbps": 78.2,
+      "disk_write_rate_mbps": 8.2
+    },
+    "qos_metrics": {
+      "response_time_ms": 4269,
+      "slo_violation_percent": 3.4
+    },
+    "workload": {
+      "concurrent_users": 120,
+      "user_type": "financial_transaction",
+      "scenario": "dynamic"
+    }
+  },
+  {
+    "service_id": "SVC_33",
+    "timestamp": "2025-02-14T04:14:26.494342",
+    "resource_usage": {
+      "cpu_utilization_percent": 19.2,
+      "ram_usage_mb": 12234,
+      "network_ingress_gb": 2.2,
+      "network_egress_gb": 28.9,
+      "storage_usage_gb": 76.4,
+      "disk_read_rate_mbps": 97.7,
+      "disk_write_rate_mbps": 25.8
+    },
+    "qos_metrics": {
+      "response_time_ms": 3365,
+      "slo_violation_percent": 2.6
+    },
+    "workload": {
+      "concurrent_users": 129,
+      "user_type": "video_streaming",
+      "scenario": "burst"
+    }
+  },
+  {
+    "service_id": "SVC_34",
+    "timestamp": "2025-03-10T00:02:39.474729",
+    "resource_usage": {
+      "cpu_utilization_percent": 12.2,
+      "ram_usage_mb": 7032,
+      "network_ingress_gb": 4.2,
+      "network_egress_gb": 6.5,
+      "storage_usage_gb": 86.3,
+      "disk_read_rate_mbps": 73.1,
+      "disk_write_rate_mbps": 40.1
+    },
+    "qos_metrics": {
+      "response_time_ms": 2037,
+      "slo_violation_percent": 1.5
+    },
+    "workload": {
+      "concurrent_users": 18,
+      "user_type": "medical_record_query",
+      "scenario": "dynamic"
+    }
+  },
+  {
+    "service_id": "SVC_35",
+    "timestamp": "2025-02-16T11:10:37.539839",
+    "resource_usage": {
+      "cpu_utilization_percent": 87.0,
+      "ram_usage_mb": 5363,
+      "network_ingress_gb": 3.0,
+      "network_egress_gb": 38.6,
+      "storage_usage_gb": 43.4,
+      "disk_read_rate_mbps": 33.9,
+      "disk_write_rate_mbps": 12.8
+    },
+    "qos_metrics": {
+      "response_time_ms": 2415,
+      "slo_violation_percent": 0.8
+    },
+    "workload": {
+      "concurrent_users": 91,
+      "user_type": "iot_data",
+      "scenario": "dynamic"
+    }
+  },
+  {
+    "service_id": "SVC_36",
+    "timestamp": "2025-02-13T06:37:14.309936",
+    "resource_usage": {
+      "cpu_utilization_percent": 66.2,
+      "ram_usage_mb": 2874,
+      "network_ingress_gb": 1.5,
+      "network_egress_gb": 44.0,
+      "storage_usage_gb": 59.6,
+      "disk_read_rate_mbps": 32.6,
+      "disk_write_rate_mbps": 18.0
+    },
+    "qos_metrics": {
+      "response_time_ms": 1679,
+      "slo_violation_percent": 3.4
+    },
+    "workload": {
+      "concurrent_users": 182,
+      "user_type": "iot_data",
+      "scenario": "burst"
+    }
+  },
+  {
+    "service_id": "SVC_37",
+    "timestamp": "2025-02-17T01:09:20.422438",
+    "resource_usage": {
+      "cpu_utilization_percent": 61.1,
+      "ram_usage_mb": 15917,
+      "network_ingress_gb": 2.3,
+      "network_egress_gb": 16.2,
+      "storage_usage_gb": 5.6,
+      "disk_read_rate_mbps": 76.1,
+      "disk_write_rate_mbps": 9.1
+    },
+    "qos_metrics": {
+      "response_time_ms": 1751,
+      "slo_violation_percent": 3.7
+    },
+    "workload": {
+      "concurrent_users": 14,
+      "user_type": "medical_record_query",
+      "scenario": "burst"
+    }
+  },
+  {
+    "service_id": "SVC_38",
+    "timestamp": "2025-02-12T12:21:58.527413",
+    "resource_usage": {
+      "cpu_utilization_percent": 12.7,
+      "ram_usage_mb": 8465,
+      "network_ingress_gb": 2.6,
+      "network_egress_gb": 37.4,
+      "storage_usage_gb": 15.2,
+      "disk_read_rate_mbps": 28.7,
+      "disk_write_rate_mbps": 38.7
+    },
+    "qos_metrics": {
+      "response_time_ms": 3752,
+      "slo_violation_percent": 4.1
+    },
+    "workload": {
+      "concurrent_users": 22,
+      "user_type": "financial_transaction",
+      "scenario": "rapid_growth"
+    }
+  },
+  {
+    "service_id": "SVC_39",
+    "timestamp": "2025-03-04T10:36:44.163570",
+    "resource_usage": {
+      "cpu_utilization_percent": 42.9,
+      "ram_usage_mb": 9085,
+      "network_ingress_gb": 1.9,
+      "network_egress_gb": 44.0,
+      "storage_usage_gb": 54.3,
+      "disk_read_rate_mbps": 40.1,
+      "disk_write_rate_mbps": 35.0
+    },
+    "qos_metrics": {
+      "response_time_ms": 3064,
+      "slo_violation_percent": 1.9
+    },
+    "workload": {
+      "concurrent_users": 65,
+      "user_type": "financial_transaction",
+      "scenario": "dynamic"
+    }
+  },
+  {
+    "service_id": "SVC_40",
+    "timestamp": "2025-03-11T14:53:13.094614",
+    "resource_usage": {
+      "cpu_utilization_percent": 13.3,
+      "ram_usage_mb": 10063,
+      "network_ingress_gb": 0.9,
+      "network_egress_gb": 36.5,
+      "storage_usage_gb": 85.8,
+      "disk_read_rate_mbps": 32.2,
+      "disk_write_rate_mbps": 12.2
+    },
+    "qos_metrics": {
+      "response_time_ms": 3623,
+      "slo_violation_percent": 0.4
+    },
+    "workload": {
+      "concurrent_users": 151,
+      "user_type": "medical_record_query",
+      "scenario": "burst"
+    }
+  },
+  {
+    "service_id": "SVC_41",
+    "timestamp": "2025-03-02T12:41:41.905650",
+    "resource_usage": {
+      "cpu_utilization_percent": 89.4,
+      "ram_usage_mb": 7066,
+      "network_ingress_gb": 4.2,
+      "network_egress_gb": 47.1,
+      "storage_usage_gb": 59.1,
+      "disk_read_rate_mbps": 95.2,
+      "disk_write_rate_mbps": 21.0
+    },
+    "qos_metrics": {
+      "response_time_ms": 868,
+      "slo_violation_percent": 1.0
+    },
+    "workload": {
+      "concurrent_users": 144,
+      "user_type": "video_streaming",
+      "scenario": "rapid_growth"
+    }
+  },
+  {
+    "service_id": "SVC_42",
+    "timestamp": "2025-02-14T05:37:40.768466",
+    "resource_usage": {
+      "cpu_utilization_percent": 18.3,
+      "ram_usage_mb": 10569,
+      "network_ingress_gb": 3.0,
+      "network_egress_gb": 5.3,
+      "storage_usage_gb": 46.0,
+      "disk_read_rate_mbps": 59.9,
+      "disk_write_rate_mbps": 28.2
+    },
+    "qos_metrics": {
+      "response_time_ms": 1699,
+      "slo_violation_percent": 4.0
+    },
+    "workload": {
+      "concurrent_users": 130,
+      "user_type": "video_streaming",
+      "scenario": "rapid_growth"
+    }
+  },
+  {
+    "service_id": "SVC_43",
+    "timestamp": "2025-03-03T15:05:38.663130",
+    "resource_usage": {
+      "cpu_utilization_percent": 16.2,
+      "ram_usage_mb": 5914,
+      "network_ingress_gb": 4.5,
+      "network_egress_gb": 16.2,
+      "storage_usage_gb": 70.8,
+      "disk_read_rate_mbps": 15.4,
+      "disk_write_rate_mbps": 7.5
+    },
+    "qos_metrics": {
+      "response_time_ms": 3168,
+      "slo_violation_percent": 0.7
+    },
+    "workload": {
+      "concurrent_users": 157,
+      "user_type": "financial_transaction",
+      "scenario": "burst"
+    }
+  },
+  {
+    "service_id": "SVC_44",
+    "timestamp": "2025-03-01T06:00:38.217568",
+    "resource_usage": {
+      "cpu_utilization_percent": 31.2,
+      "ram_usage_mb": 12193,
+      "network_ingress_gb": 1.6,
+      "network_egress_gb": 30.1,
+      "storage_usage_gb": 99.8,
+      "disk_read_rate_mbps": 97.6,
+      "disk_write_rate_mbps": 14.7
+    },
+    "qos_metrics": {
+      "response_time_ms": 3334,
+      "slo_violation_percent": 4.1
+    },
+    "workload": {
+      "concurrent_users": 57,
+      "user_type": "financial_transaction",
+      "scenario": "rapid_growth"
+    }
+  },
+  {
+    "service_id": "SVC_45",
+    "timestamp": "2025-02-21T01:11:29.868455",
+    "resource_usage": {
+      "cpu_utilization_percent": 30.4,
+      "ram_usage_mb": 2843,
+      "network_ingress_gb": 4.7,
+      "network_egress_gb": 28.3,
+      "storage_usage_gb": 8.0,
+      "disk_read_rate_mbps": 61.8,
+      "disk_write_rate_mbps": 44.8
+    },
+    "qos_metrics": {
+      "response_time_ms": 3253,
+      "slo_violation_percent": 0.7
+    },
+    "workload": {
+      "concurrent_users": 73,
+      "user_type": "medical_record_query",
+      "scenario": "rapid_growth"
+    }
+  },
+  {
+    "service_id": "SVC_46",
+    "timestamp": "2025-02-15T22:06:24.318869",
+    "resource_usage": {
+      "cpu_utilization_percent": 91.4,
+      "ram_usage_mb": 9884,
+      "network_ingress_gb": 2.5,
+      "network_egress_gb": 17.3,
+      "storage_usage_gb": 96.5,
+      "disk_read_rate_mbps": 69.6,
+      "disk_write_rate_mbps": 13.1
+    },
+    "qos_metrics": {
+      "response_time_ms": 3910,
+      "slo_violation_percent": 3.3
+    },
+    "workload": {
+      "concurrent_users": 153,
+      "user_type": "financial_transaction",
+      "scenario": "rapid_growth"
+    }
+  },
+  {
+    "service_id": "SVC_47",
+    "timestamp": "2025-02-14T20:30:14.559158",
+    "resource_usage": {
+      "cpu_utilization_percent": 64.0,
+      "ram_usage_mb": 14946,
+      "network_ingress_gb": 3.2,
+      "network_egress_gb": 7.9,
+      "storage_usage_gb": 22.4,
+      "disk_read_rate_mbps": 55.1,
+      "disk_write_rate_mbps": 44.9
+    },
+    "qos_metrics": {
+      "response_time_ms": 2505,
+      "slo_violation_percent": 3.6
+    },
+    "workload": {
+      "concurrent_users": 90,
+      "user_type": "video_streaming",
+      "scenario": "burst"
+    }
+  },
+  {
+    "service_id": "SVC_48",
+    "timestamp": "2025-02-22T08:40:26.950576",
+    "resource_usage": {
+      "cpu_utilization_percent": 27.7,
+      "ram_usage_mb": 15664,
+      "network_ingress_gb": 4.9,
+      "network_egress_gb": 7.2,
+      "storage_usage_gb": 89.6,
+      "disk_read_rate_mbps": 49.8,
+      "disk_write_rate_mbps": 26.6
+    },
+    "qos_metrics": {
+      "response_time_ms": 2424,
+      "slo_violation_percent": 1.3
+    },
+    "workload": {
+      "concurrent_users": 14,
+      "user_type": "financial_transaction",
+      "scenario": "burst"
+    }
+  },
+  {
+    "service_id": "SVC_49",
+    "timestamp": "2025-02-18T13:34:23.016606",
+    "resource_usage": {
+      "cpu_utilization_percent": 77.2,
+      "ram_usage_mb": 6609,
+      "network_ingress_gb": 0.5,
+      "network_egress_gb": 21.4,
+      "storage_usage_gb": 80.5,
+      "disk_read_rate_mbps": 62.6,
+      "disk_write_rate_mbps": 22.5
+    },
+    "qos_metrics": {
+      "response_time_ms": 3146,
+      "slo_violation_percent": 0.8
+    },
+    "workload": {
+      "concurrent_users": 10,
+      "user_type": "video_streaming",
+      "scenario": "dynamic"
+    }
+  },
+  {
+    "service_id": "SVC_50",
+    "timestamp": "2025-03-03T14:02:12.244388",
+    "resource_usage": {
+      "cpu_utilization_percent": 75.7,
+      "ram_usage_mb": 8094,
+      "network_ingress_gb": 1.3,
+      "network_egress_gb": 20.6,
+      "storage_usage_gb": 72.8,
+      "disk_read_rate_mbps": 68.5,
+      "disk_write_rate_mbps": 29.2
+    },
+    "qos_metrics": {
+      "response_time_ms": 3428,
+      "slo_violation_percent": 1.0
+    },
+    "workload": {
+      "concurrent_users": 94,
+      "user_type": "financial_transaction",
+      "scenario": "rapid_growth"
+    }
+  },
+  {
+    "service_id": "SVC_51",
+    "timestamp": "2025-02-17T13:45:43.752661",
+    "resource_usage": {
+      "cpu_utilization_percent": 51.7,
+      "ram_usage_mb": 973,
+      "network_ingress_gb": 3.8,
+      "network_egress_gb": 23.2,
+      "storage_usage_gb": 66.7,
+      "disk_read_rate_mbps": 21.6,
+      "disk_write_rate_mbps": 46.9
+    },
+    "qos_metrics": {
+      "response_time_ms": 2259,
+      "slo_violation_percent": 1.9
+    },
+    "workload": {
+      "concurrent_users": 35,
+      "user_type": "medical_record_query",
+      "scenario": "burst"
+    }
+  },
+  {
+    "service_id": "SVC_52",
+    "timestamp": "2025-02-12T00:11:30.093227",
+    "resource_usage": {
+      "cpu_utilization_percent": 51.0,
+      "ram_usage_mb": 5755,
+      "network_ingress_gb": 4.9,
+      "network_egress_gb": 36.2,
+      "storage_usage_gb": 5.9,
+      "disk_read_rate_mbps": 78.8,
+      "disk_write_rate_mbps": 22.4
+    },
+    "qos_metrics": {
+      "response_time_ms": 3540,
+      "slo_violation_percent": 0.8
+    },
+    "workload": {
+      "concurrent_users": 153,
+      "user_type": "financial_transaction",
+      "scenario": "rapid_growth"
+    }
+  },
+  {
+    "service_id": "SVC_53",
+    "timestamp": "2025-03-07T07:38:04.513459",
+    "resource_usage": {
+      "cpu_utilization_percent": 59.5,
+      "ram_usage_mb": 4153,
+      "network_ingress_gb": 3.7,
+      "network_egress_gb": 35.7,
+      "storage_usage_gb": 37.4,
+      "disk_read_rate_mbps": 70.0,
+      "disk_write_rate_mbps": 20.1
+    },
+    "qos_metrics": {
+      "response_time_ms": 3469,
+      "slo_violation_percent": 1.8
+    },
+    "workload": {
+      "concurrent_users": 10,
+      "user_type": "video_streaming",
+      "scenario": "burst"
+    }
+  },
+  {
+    "service_id": "SVC_54",
+    "timestamp": "2025-02-22T13:36:12.372832",
+    "resource_usage": {
+      "cpu_utilization_percent": 81.9,
+      "ram_usage_mb": 2507,
+      "network_ingress_gb": 2.4,
+      "network_egress_gb": 40.6,
+      "storage_usage_gb": 93.0,
+      "disk_read_rate_mbps": 40.0,
+      "disk_write_rate_mbps": 19.9
+    },
+    "qos_metrics": {
+      "response_time_ms": 3587,
+      "slo_violation_percent": 4.2
+    },
+    "workload": {
+      "concurrent_users": 81,
+      "user_type": "financial_transaction",
+      "scenario": "rapid_growth"
+    }
+  },
+  {
+    "service_id": "SVC_55",
+    "timestamp": "2025-02-27T13:37:33.685450",
+    "resource_usage": {
+      "cpu_utilization_percent": 43.0,
+      "ram_usage_mb": 9184,
+      "network_ingress_gb": 1.0,
+      "network_egress_gb": 24.1,
+      "storage_usage_gb": 37.3,
+      "disk_read_rate_mbps": 88.6,
+      "disk_write_rate_mbps": 48.8
+    },
+    "qos_metrics": {
+      "response_time_ms": 4045,
+      "slo_violation_percent": 2.0
+    },
+    "workload": {
+      "concurrent_users": 153,
+      "user_type": "iot_data",
+      "scenario": "burst"
+    }
+  },
+  {
+    "service_id": "SVC_56",
+    "timestamp": "2025-02-22T07:21:47.871603",
+    "resource_usage": {
+      "cpu_utilization_percent": 62.3,
+      "ram_usage_mb": 4346,
+      "network_ingress_gb": 1.1,
+      "network_egress_gb": 33.6,
+      "storage_usage_gb": 17.1,
+      "disk_read_rate_mbps": 72.5,
+      "disk_write_rate_mbps": 13.8
+    },
+    "qos_metrics": {
+      "response_time_ms": 3359,
+      "slo_violation_percent": 3.1
+    },
+    "workload": {
+      "concurrent_users": 105,
+      "user_type": "video_streaming",
+      "scenario": "burst"
+    }
+  },
+  {
+    "service_id": "SVC_57",
+    "timestamp": "2025-02-22T21:41:32.778171",
+    "resource_usage": {
+      "cpu_utilization_percent": 16.9,
+      "ram_usage_mb": 15880,
+      "network_ingress_gb": 4.4,
+      "network_egress_gb": 29.4,
+      "storage_usage_gb": 77.7,
+      "disk_read_rate_mbps": 79.5,
+      "disk_write_rate_mbps": 23.1
+    },
+    "qos_metrics": {
+      "response_time_ms": 3123,
+      "slo_violation_percent": 1.4
+    },
+    "workload": {
+      "concurrent_users": 144,
+      "user_type": "iot_data",
+      "scenario": "rapid_growth"
+    }
+  },
+  {
+    "service_id": "SVC_58",
+    "timestamp": "2025-03-09T02:47:34.587617",
+    "resource_usage": {
+      "cpu_utilization_percent": 59.5,
+      "ram_usage_mb": 5171,
+      "network_ingress_gb": 4.3,
+      "network_egress_gb": 14.8,
+      "storage_usage_gb": 93.3,
+      "disk_read_rate_mbps": 70.8,
+      "disk_write_rate_mbps": 10.6
+    },
+    "qos_metrics": {
+      "response_time_ms": 2114,
+      "slo_violation_percent": 2.8
+    },
+    "workload": {
+      "concurrent_users": 160,
+      "user_type": "video_streaming",
+      "scenario": "rapid_growth"
+    }
+  },
+  {
+    "service_id": "SVC_59",
+    "timestamp": "2025-03-08T18:28:00.391014",
+    "resource_usage": {
+      "cpu_utilization_percent": 38.4,
+      "ram_usage_mb": 9911,
+      "network_ingress_gb": 2.6,
+      "network_egress_gb": 37.3,
+      "storage_usage_gb": 44.5,
+      "disk_read_rate_mbps": 65.8,
+      "disk_write_rate_mbps": 27.0
+    },
+    "qos_metrics": {
+      "response_time_ms": 1249,
+      "slo_violation_percent": 0.7
+    },
+    "workload": {
+      "concurrent_users": 154,
+      "user_type": "iot_data",
+      "scenario": "rapid_growth"
+    }
+  },
+  {
+    "service_id": "SVC_60",
+    "timestamp": "2025-02-20T16:33:42.543719",
+    "resource_usage": {
+      "cpu_utilization_percent": 31.6,
+      "ram_usage_mb": 9979,
+      "network_ingress_gb": 2.0,
+      "network_egress_gb": 44.6,
+      "storage_usage_gb": 7.5,
+      "disk_read_rate_mbps": 57.6,
+      "disk_write_rate_mbps": 32.4
+    },
+    "qos_metrics": {
+      "response_time_ms": 2335,
+      "slo_violation_percent": 2.2
+    },
+    "workload": {
+      "concurrent_users": 60,
+      "user_type": "iot_data",
+      "scenario": "burst"
+    }
+  },
+  {
+    "service_id": "SVC_61",
+    "timestamp": "2025-02-28T08:10:33.076863",
+    "resource_usage": {
+      "cpu_utilization_percent": 86.3,
+      "ram_usage_mb": 14210,
+      "network_ingress_gb": 2.0,
+      "network_egress_gb": 29.7,
+      "storage_usage_gb": 30.4,
+      "disk_read_rate_mbps": 17.1,
+      "disk_write_rate_mbps": 13.4
+    },
+    "qos_metrics": {
+      "response_time_ms": 4216,
+      "slo_violation_percent": 1.7
+    },
+    "workload": {
+      "concurrent_users": 133,
+      "user_type": "medical_record_query",
+      "scenario": "rapid_growth"
+    }
+  },
+  {
+    "service_id": "SVC_62",
+    "timestamp": "2025-02-22T11:28:24.649922",
+    "resource_usage": {
+      "cpu_utilization_percent": 39.1,
+      "ram_usage_mb": 8770,
+      "network_ingress_gb": 2.1,
+      "network_egress_gb": 19.9,
+      "storage_usage_gb": 89.1,
+      "disk_read_rate_mbps": 52.9,
+      "disk_write_rate_mbps": 6.4
+    },
+    "qos_metrics": {
+      "response_time_ms": 2959,
+      "slo_violation_percent": 3.7
+    },
+    "workload": {
+      "concurrent_users": 87,
+      "user_type": "video_streaming",
+      "scenario": "dynamic"
+    }
+  },
+  {
+    "service_id": "SVC_63",
+    "timestamp": "2025-02-17T07:46:46.952359",
+    "resource_usage": {
+      "cpu_utilization_percent": 54.0,
+      "ram_usage_mb": 3318,
+      "network_ingress_gb": 2.5,
+      "network_egress_gb": 19.0,
+      "storage_usage_gb": 71.9,
+      "disk_read_rate_mbps": 38.1,
+      "disk_write_rate_mbps": 11.8
+    },
+    "qos_metrics": {
+      "response_time_ms": 3550,
+      "slo_violation_percent": 4.1
+    },
+    "workload": {
+      "concurrent_users": 178,
+      "user_type": "medical_record_query",
+      "scenario": "rapid_growth"
+    }
+  },
+  {
+    "service_id": "SVC_64",
+    "timestamp": "2025-03-02T04:44:33.974822",
+    "resource_usage": {
+      "cpu_utilization_percent": 73.5,
+      "ram_usage_mb": 3209,
+      "network_ingress_gb": 2.9,
+      "network_egress_gb": 34.3,
+      "storage_usage_gb": 15.7,
+      "disk_read_rate_mbps": 62.3,
+      "disk_write_rate_mbps": 8.9
+    },
+    "qos_metrics": {
+      "response_time_ms": 2590,
+      "slo_violation_percent": 4.8
+    },
+    "workload": {
+      "concurrent_users": 196,
+      "user_type": "financial_transaction",
+      "scenario": "dynamic"
+    }
+  },
+  {
+    "service_id": "SVC_65",
+    "timestamp": "2025-02-25T22:00:04.357022",
+    "resource_usage": {
+      "cpu_utilization_percent": 79.7,
+      "ram_usage_mb": 12137,
+      "network_ingress_gb": 1.5,
+      "network_egress_gb": 6.9,
+      "storage_usage_gb": 10.1,
+      "disk_read_rate_mbps": 12.7,
+      "disk_write_rate_mbps": 11.7
+    },
+    "qos_metrics": {
+      "response_time_ms": 3921,
+      "slo_violation_percent": 4.3
+    },
+    "workload": {
+      "concurrent_users": 54,
+      "user_type": "medical_record_query",
+      "scenario": "rapid_growth"
+    }
+  },
+  {
+    "service_id": "SVC_66",
+    "timestamp": "2025-02-11T02:47:25.404052",
+    "resource_usage": {
+      "cpu_utilization_percent": 82.0,
+      "ram_usage_mb": 1437,
+      "network_ingress_gb": 3.7,
+      "network_egress_gb": 47.7,
+      "storage_usage_gb": 45.4,
+      "disk_read_rate_mbps": 72.4,
+      "disk_write_rate_mbps": 44.9
+    },
+    "qos_metrics": {
+      "response_time_ms": 846,
+      "slo_violation_percent": 3.1
+    },
+    "workload": {
+      "concurrent_users": 98,
+      "user_type": "video_streaming",
+      "scenario": "rapid_growth"
+    }
+  },
+  {
+    "service_id": "SVC_67",
+    "timestamp": "2025-02-12T16:29:46.957146",
+    "resource_usage": {
+      "cpu_utilization_percent": 21.5,
+      "ram_usage_mb": 16063,
+      "network_ingress_gb": 4.8,
+      "network_egress_gb": 10.5,
+      "storage_usage_gb": 33.3,
+      "disk_read_rate_mbps": 76.1,
+      "disk_write_rate_mbps": 33.8
+    },
+    "qos_metrics": {
+      "response_time_ms": 3893,
+      "slo_violation_percent": 2.5
+    },
+    "workload": {
+      "concurrent_users": 122,
+      "user_type": "iot_data",
+      "scenario": "burst"
+    }
+  },
+  {
+    "service_id": "SVC_68",
+    "timestamp": "2025-02-18T18:47:49.223900",
+    "resource_usage": {
+      "cpu_utilization_percent": 69.0,
+      "ram_usage_mb": 10357,
+      "network_ingress_gb": 4.9,
+      "network_egress_gb": 28.1,
+      "storage_usage_gb": 85.8,
+      "disk_read_rate_mbps": 23.1,
+      "disk_write_rate_mbps": 13.7
+    },
+    "qos_metrics": {
+      "response_time_ms": 2845,
+      "slo_violation_percent": 1.9
+    },
+    "workload": {
+      "concurrent_users": 14,
+      "user_type": "video_streaming",
+      "scenario": "rapid_growth"
+    }
+  },
+  {
+    "service_id": "SVC_69",
+    "timestamp": "2025-03-08T11:42:31.393163",
+    "resource_usage": {
+      "cpu_utilization_percent": 90.9,
+      "ram_usage_mb": 16064,
+      "network_ingress_gb": 3.9,
+      "network_egress_gb": 27.2,
+      "storage_usage_gb": 7.1,
+      "disk_read_rate_mbps": 78.2,
+      "disk_write_rate_mbps": 18.0
+    },
+    "qos_metrics": {
+      "response_time_ms": 3632,
+      "slo_violation_percent": 3.5
+    },
+    "workload": {
+      "concurrent_users": 96,
+      "user_type": "video_streaming",
+      "scenario": "dynamic"
+    }
+  },
+  {
+    "service_id": "SVC_70",
+    "timestamp": "2025-02-22T03:18:29.600138",
+    "resource_usage": {
+      "cpu_utilization_percent": 65.1,
+      "ram_usage_mb": 15532,
+      "network_ingress_gb": 3.1,
+      "network_egress_gb": 10.0,
+      "storage_usage_gb": 96.1,
+      "disk_read_rate_mbps": 35.1,
+      "disk_write_rate_mbps": 14.1
+    },
+    "qos_metrics": {
+      "response_time_ms": 4223,
+      "slo_violation_percent": 3.3
+    },
+    "workload": {
+      "concurrent_users": 126,
+      "user_type": "video_streaming",
+      "scenario": "rapid_growth"
+    }
+  },
+  {
+    "service_id": "SVC_71",
+    "timestamp": "2025-02-14T10:59:14.702599",
+    "resource_usage": {
+      "cpu_utilization_percent": 41.7,
+      "ram_usage_mb": 10401,
+      "network_ingress_gb": 1.4,
+      "network_egress_gb": 13.7,
+      "storage_usage_gb": 67.8,
+      "disk_read_rate_mbps": 74.9,
+      "disk_write_rate_mbps": 37.3
+    },
+    "qos_metrics": {
+      "response_time_ms": 3857,
+      "slo_violation_percent": 2.6
+    },
+    "workload": {
+      "concurrent_users": 30,
+      "user_type": "iot_data",
+      "scenario": "rapid_growth"
+    }
+  },
+  {
+    "service_id": "SVC_72",
+    "timestamp": "2025-02-18T09:18:18.780108",
+    "resource_usage": {
+      "cpu_utilization_percent": 73.4,
+      "ram_usage_mb": 9002,
+      "network_ingress_gb": 4.4,
+      "network_egress_gb": 35.4,
+      "storage_usage_gb": 74.1,
+      "disk_read_rate_mbps": 40.4,
+      "disk_write_rate_mbps": 33.6
+    },
+    "qos_metrics": {
+      "response_time_ms": 2530,
+      "slo_violation_percent": 3.7
+    },
+    "workload": {
+      "concurrent_users": 92,
+      "user_type": "video_streaming",
+      "scenario": "burst"
+    }
+  },
+  {
+    "service_id": "SVC_73",
+    "timestamp": "2025-03-04T14:59:13.784449",
+    "resource_usage": {
+      "cpu_utilization_percent": 25.8,
+      "ram_usage_mb": 1392,
+      "network_ingress_gb": 2.9,
+      "network_egress_gb": 42.9,
+      "storage_usage_gb": 13.0,
+      "disk_read_rate_mbps": 56.9,
+      "disk_write_rate_mbps": 29.0
+    },
+    "qos_metrics": {
+      "response_time_ms": 1541,
+      "slo_violation_percent": 0.9
+    },
+    "workload": {
+      "concurrent_users": 151,
+      "user_type": "video_streaming",
+      "scenario": "burst"
+    }
+  },
+  {
+    "service_id": "SVC_74",
+    "timestamp": "2025-03-01T12:03:09.581990",
+    "resource_usage": {
+      "cpu_utilization_percent": 34.9,
+      "ram_usage_mb": 1555,
+      "network_ingress_gb": 3.2,
+      "network_egress_gb": 32.4,
+      "storage_usage_gb": 29.3,
+      "disk_read_rate_mbps": 59.0,
+      "disk_write_rate_mbps": 21.1
+    },
+    "qos_metrics": {
+      "response_time_ms": 1421,
+      "slo_violation_percent": 3.1
+    },
+    "workload": {
+      "concurrent_users": 141,
+      "user_type": "financial_transaction",
+      "scenario": "burst"
+    }
+  },
+  {
+    "service_id": "SVC_75",
+    "timestamp": "2025-02-14T15:12:48.334154",
+    "resource_usage": {
+      "cpu_utilization_percent": 30.1,
+      "ram_usage_mb": 8996,
+      "network_ingress_gb": 4.1,
+      "network_egress_gb": 31.8,
+      "storage_usage_gb": 85.8,
+      "disk_read_rate_mbps": 47.7,
+      "disk_write_rate_mbps": 19.4
+    },
+    "qos_metrics": {
+      "response_time_ms": 3339,
+      "slo_violation_percent": 1.3
+    },
+    "workload": {
+      "concurrent_users": 171,
+      "user_type": "video_streaming",
+      "scenario": "burst"
+    }
+  },
+  {
+    "service_id": "SVC_76",
+    "timestamp": "2025-02-14T08:20:37.633052",
+    "resource_usage": {
+      "cpu_utilization_percent": 22.6,
+      "ram_usage_mb": 11202,
+      "network_ingress_gb": 1.5,
+      "network_egress_gb": 45.8,
+      "storage_usage_gb": 62.1,
+      "disk_read_rate_mbps": 74.7,
+      "disk_write_rate_mbps": 36.5
+    },
+    "qos_metrics": {
+      "response_time_ms": 3770,
+      "slo_violation_percent": 2.6
+    },
+    "workload": {
+      "concurrent_users": 56,
+      "user_type": "video_streaming",
+      "scenario": "dynamic"
+    }
+  },
+  {
+    "service_id": "SVC_77",
+    "timestamp": "2025-02-24T19:39:49.828983",
+    "resource_usage": {
+      "cpu_utilization_percent": 48.4,
+      "ram_usage_mb": 10766,
+      "network_ingress_gb": 2.8,
+      "network_egress_gb": 18.4,
+      "storage_usage_gb": 38.2,
+      "disk_read_rate_mbps": 62.5,
+      "disk_write_rate_mbps": 5.9
+    },
+    "qos_metrics": {
+      "response_time_ms": 1183,
+      "slo_violation_percent": 3.3
+    },
+    "workload": {
+      "concurrent_users": 156,
+      "user_type": "video_streaming",
+      "scenario": "burst"
+    }
+  },
+  {
+    "service_id": "SVC_78",
+    "timestamp": "2025-02-18T06:35:14.471165",
+    "resource_usage": {
+      "cpu_utilization_percent": 32.3,
+      "ram_usage_mb": 800,
+      "network_ingress_gb": 4.2,
+      "network_egress_gb": 28.7,
+      "storage_usage_gb": 45.8,
+      "disk_read_rate_mbps": 56.0,
+      "disk_write_rate_mbps": 31.6
+    },
+    "qos_metrics": {
+      "response_time_ms": 2162,
+      "slo_violation_percent": 2.0
+    },
+    "workload": {
+      "concurrent_users": 35,
+      "user_type": "financial_transaction",
+      "scenario": "dynamic"
+    }
+  },
+  {
+    "service_id": "SVC_79",
+    "timestamp": "2025-02-11T01:09:25.811669",
+    "resource_usage": {
+      "cpu_utilization_percent": 71.5,
+      "ram_usage_mb": 6598,
+      "network_ingress_gb": 4.6,
+      "network_egress_gb": 2.9,
+      "storage_usage_gb": 73.2,
+      "disk_read_rate_mbps": 39.3,
+      "disk_write_rate_mbps": 21.8
+    },
+    "qos_metrics": {
+      "response_time_ms": 1130,
+      "slo_violation_percent": 3.2
+    },
+    "workload": {
+      "concurrent_users": 186,
+      "user_type": "financial_transaction",
+      "scenario": "burst"
+    }
+  },
+  {
+    "service_id": "SVC_80",
+    "timestamp": "2025-03-07T22:55:20.164783",
+    "resource_usage": {
+      "cpu_utilization_percent": 90.9,
+      "ram_usage_mb": 12473,
+      "network_ingress_gb": 0.7,
+      "network_egress_gb": 21.6,
+      "storage_usage_gb": 58.4,
+      "disk_read_rate_mbps": 39.2,
+      "disk_write_rate_mbps": 28.9
+    },
+    "qos_metrics": {
+      "response_time_ms": 2455,
+      "slo_violation_percent": 4.8
+    },
+    "workload": {
+      "concurrent_users": 42,
+      "user_type": "iot_data",
+      "scenario": "rapid_growth"
+    }
+  },
+  {
+    "service_id": "SVC_81",
+    "timestamp": "2025-02-16T10:48:06.929389",
+    "resource_usage": {
+      "cpu_utilization_percent": 29.7,
+      "ram_usage_mb": 5460,
+      "network_ingress_gb": 0.6,
+      "network_egress_gb": 11.9,
+      "storage_usage_gb": 78.1,
+      "disk_read_rate_mbps": 94.6,
+      "disk_write_rate_mbps": 37.4
+    },
+    "qos_metrics": {
+      "response_time_ms": 4390,
+      "slo_violation_percent": 1.9
+    },
+    "workload": {
+      "concurrent_users": 60,
+      "user_type": "financial_transaction",
+      "scenario": "dynamic"
+    }
+  },
+  {
+    "service_id": "SVC_82",
+    "timestamp": "2025-02-20T11:02:40.714693",
+    "resource_usage": {
+      "cpu_utilization_percent": 84.2,
+      "ram_usage_mb": 12488,
+      "network_ingress_gb": 2.9,
+      "network_egress_gb": 20.2,
+      "storage_usage_gb": 39.2,
+      "disk_read_rate_mbps": 48.4,
+      "disk_write_rate_mbps": 40.8
+    },
+    "qos_metrics": {
+      "response_time_ms": 1253,
+      "slo_violation_percent": 2.9
+    },
+    "workload": {
+      "concurrent_users": 198,
+      "user_type": "iot_data",
+      "scenario": "dynamic"
+    }
+  },
+  {
+    "service_id": "SVC_83",
+    "timestamp": "2025-02-28T22:19:21.589017",
+    "resource_usage": {
+      "cpu_utilization_percent": 15.3,
+      "ram_usage_mb": 1849,
+      "network_ingress_gb": 3.7,
+      "network_egress_gb": 7.0,
+      "storage_usage_gb": 77.8,
+      "disk_read_rate_mbps": 73.9,
+      "disk_write_rate_mbps": 6.2
+    },
+    "qos_metrics": {
+      "response_time_ms": 2997,
+      "slo_violation_percent": 3.3
+    },
+    "workload": {
+      "concurrent_users": 133,
+      "user_type": "medical_record_query",
+      "scenario": "burst"
+    }
+  },
+  {
+    "service_id": "SVC_84",
+    "timestamp": "2025-03-04T05:35:32.231854",
+    "resource_usage": {
+      "cpu_utilization_percent": 91.1,
+      "ram_usage_mb": 12717,
+      "network_ingress_gb": 2.9,
+      "network_egress_gb": 44.3,
+      "storage_usage_gb": 43.5,
+      "disk_read_rate_mbps": 36.6,
+      "disk_write_rate_mbps": 49.8
+    },
+    "qos_metrics": {
+      "response_time_ms": 1174,
+      "slo_violation_percent": 4.2
+    },
+    "workload": {
+      "concurrent_users": 170,
+      "user_type": "financial_transaction",
+      "scenario": "burst"
+    }
+  },
+  {
+    "service_id": "SVC_85",
+    "timestamp": "2025-02-18T15:43:34.533817",
+    "resource_usage": {
+      "cpu_utilization_percent": 12.7,
+      "ram_usage_mb": 9851,
+      "network_ingress_gb": 2.4,
+      "network_egress_gb": 11.7,
+      "storage_usage_gb": 21.1,
+      "disk_read_rate_mbps": 56.9,
+      "disk_write_rate_mbps": 25.0
+    },
+    "qos_metrics": {
+      "response_time_ms": 4366,
+      "slo_violation_percent": 2.5
+    },
+    "workload": {
+      "concurrent_users": 92,
+      "user_type": "medical_record_query",
+      "scenario": "rapid_growth"
+    }
+  },
+  {
+    "service_id": "SVC_86",
+    "timestamp": "2025-02-13T08:50:25.147966",
+    "resource_usage": {
+      "cpu_utilization_percent": 81.6,
+      "ram_usage_mb": 10958,
+      "network_ingress_gb": 0.9,
+      "network_egress_gb": 35.5,
+      "storage_usage_gb": 48.3,
+      "disk_read_rate_mbps": 55.4,
+      "disk_write_rate_mbps": 9.9
+    },
+    "qos_metrics": {
+      "response_time_ms": 3542,
+      "slo_violation_percent": 4.4
+    },
+    "workload": {
+      "concurrent_users": 161,
+      "user_type": "financial_transaction",
+      "scenario": "burst"
+    }
+  },
+  {
+    "service_id": "SVC_87",
+    "timestamp": "2025-03-01T16:28:41.077552",
+    "resource_usage": {
+      "cpu_utilization_percent": 77.9,
+      "ram_usage_mb": 11648,
+      "network_ingress_gb": 1.7,
+      "network_egress_gb": 33.4,
+      "storage_usage_gb": 19.7,
+      "disk_read_rate_mbps": 44.7,
+      "disk_write_rate_mbps": 32.1
+    },
+    "qos_metrics": {
+      "response_time_ms": 4391,
+      "slo_violation_percent": 3.7
+    },
+    "workload": {
+      "concurrent_users": 99,
+      "user_type": "video_streaming",
+      "scenario": "dynamic"
+    }
+  },
+  {
+    "service_id": "SVC_88",
+    "timestamp": "2025-02-18T11:44:01.676682",
+    "resource_usage": {
+      "cpu_utilization_percent": 35.0,
+      "ram_usage_mb": 1446,
+      "network_ingress_gb": 2.9,
+      "network_egress_gb": 29.1,
+      "storage_usage_gb": 62.3,
+      "disk_read_rate_mbps": 26.3,
+      "disk_write_rate_mbps": 11.0
+    },
+    "qos_metrics": {
+      "response_time_ms": 2806,
+      "slo_violation_percent": 4.1
+    },
+    "workload": {
+      "concurrent_users": 156,
+      "user_type": "video_streaming",
+      "scenario": "dynamic"
+    }
+  },
+  {
+    "service_id": "SVC_89",
+    "timestamp": "2025-02-22T04:46:43.767687",
+    "resource_usage": {
+      "cpu_utilization_percent": 25.5,
+      "ram_usage_mb": 9743,
+      "network_ingress_gb": 3.3,
+      "network_egress_gb": 46.6,
+      "storage_usage_gb": 23.2,
+      "disk_read_rate_mbps": 79.8,
+      "disk_write_rate_mbps": 20.6
+    },
+    "qos_metrics": {
+      "response_time_ms": 3292,
+      "slo_violation_percent": 1.1
+    },
+    "workload": {
+      "concurrent_users": 196,
+      "user_type": "financial_transaction",
+      "scenario": "rapid_growth"
+    }
+  },
+  {
+    "service_id": "SVC_90",
+    "timestamp": "2025-03-09T13:57:48.136688",
+    "resource_usage": {
+      "cpu_utilization_percent": 88.4,
+      "ram_usage_mb": 12697,
+      "network_ingress_gb": 0.6,
+      "network_egress_gb": 4.8,
+      "storage_usage_gb": 29.9,
+      "disk_read_rate_mbps": 60.2,
+      "disk_write_rate_mbps": 28.0
+    },
+    "qos_metrics": {
+      "response_time_ms": 1568,
+      "slo_violation_percent": 3.6
+    },
+    "workload": {
+      "concurrent_users": 130,
+      "user_type": "medical_record_query",
+      "scenario": "dynamic"
+    }
+  },
+  {
+    "service_id": "SVC_91",
+    "timestamp": "2025-03-11T10:45:35.658217",
+    "resource_usage": {
+      "cpu_utilization_percent": 13.4,
+      "ram_usage_mb": 15871,
+      "network_ingress_gb": 3.4,
+      "network_egress_gb": 32.6,
+      "storage_usage_gb": 83.3,
+      "disk_read_rate_mbps": 44.0,
+      "disk_write_rate_mbps": 34.7
+    },
+    "qos_metrics": {
+      "response_time_ms": 4427,
+      "slo_violation_percent": 3.9
+    },
+    "workload": {
+      "concurrent_users": 73,
+      "user_type": "medical_record_query",
+      "scenario": "burst"
+    }
+  },
+  {
+    "service_id": "SVC_92",
+    "timestamp": "2025-03-01T03:14:10.395809",
+    "resource_usage": {
+      "cpu_utilization_percent": 23.5,
+      "ram_usage_mb": 15359,
+      "network_ingress_gb": 2.7,
+      "network_egress_gb": 28.5,
+      "storage_usage_gb": 72.5,
+      "disk_read_rate_mbps": 70.6,
+      "disk_write_rate_mbps": 24.0
+    },
+    "qos_metrics": {
+      "response_time_ms": 1667,
+      "slo_violation_percent": 4.2
+    },
+    "workload": {
+      "concurrent_users": 11,
+      "user_type": "financial_transaction",
+      "scenario": "dynamic"
+    }
+  },
+  {
+    "service_id": "SVC_93",
+    "timestamp": "2025-02-24T16:00:46.042191",
+    "resource_usage": {
+      "cpu_utilization_percent": 33.3,
+      "ram_usage_mb": 1593,
+      "network_ingress_gb": 3.3,
+      "network_egress_gb": 32.6,
+      "storage_usage_gb": 17.4,
+      "disk_read_rate_mbps": 97.7,
+      "disk_write_rate_mbps": 40.7
+    },
+    "qos_metrics": {
+      "response_time_ms": 1300,
+      "slo_violation_percent": 0.6
+    },
+    "workload": {
+      "concurrent_users": 99,
+      "user_type": "medical_record_query",
+      "scenario": "burst"
+    }
+  },
+  {
+    "service_id": "SVC_94",
+    "timestamp": "2025-02-11T23:59:33.226745",
+    "resource_usage": {
+      "cpu_utilization_percent": 83.3,
+      "ram_usage_mb": 9413,
+      "network_ingress_gb": 1.4,
+      "network_egress_gb": 32.7,
+      "storage_usage_gb": 57.9,
+      "disk_read_rate_mbps": 93.8,
+      "disk_write_rate_mbps": 15.6
+    },
+    "qos_metrics": {
+      "response_time_ms": 3241,
+      "slo_violation_percent": 0.5
+    },
+    "workload": {
+      "concurrent_users": 178,
+      "user_type": "medical_record_query",
+      "scenario": "rapid_growth"
+    }
+  },
+  {
+    "service_id": "SVC_95",
+    "timestamp": "2025-02-17T14:32:56.278440",
+    "resource_usage": {
+      "cpu_utilization_percent": 70.3,
+      "ram_usage_mb": 14291,
+      "network_ingress_gb": 4.0,
+      "network_egress_gb": 30.2,
+      "storage_usage_gb": 10.3,
+      "disk_read_rate_mbps": 81.0,
+      "disk_write_rate_mbps": 28.9
+    },
+    "qos_metrics": {
+      "response_time_ms": 3745,
+      "slo_violation_percent": 3.7
+    },
+    "workload": {
+      "concurrent_users": 90,
+      "user_type": "medical_record_query",
+      "scenario": "rapid_growth"
+    }
+  },
+  {
+    "service_id": "SVC_96",
+    "timestamp": "2025-02-25T05:33:55.733863",
+    "resource_usage": {
+      "cpu_utilization_percent": 81.7,
+      "ram_usage_mb": 15654,
+      "network_ingress_gb": 5.0,
+      "network_egress_gb": 19.1,
+      "storage_usage_gb": 20.6,
+      "disk_read_rate_mbps": 28.6,
+      "disk_write_rate_mbps": 41.6
+    },
+    "qos_metrics": {
+      "response_time_ms": 2265,
+      "slo_violation_percent": 3.2
+    },
+    "workload": {
+      "concurrent_users": 53,
+      "user_type": "financial_transaction",
+      "scenario": "dynamic"
+    }
+  },
+  {
+    "service_id": "SVC_97",
+    "timestamp": "2025-03-06T01:08:06.838393",
+    "resource_usage": {
+      "cpu_utilization_percent": 18.0,
+      "ram_usage_mb": 12839,
+      "network_ingress_gb": 4.4,
+      "network_egress_gb": 29.0,
+      "storage_usage_gb": 25.0,
+      "disk_read_rate_mbps": 20.5,
+      "disk_write_rate_mbps": 23.6
+    },
+    "qos_metrics": {
+      "response_time_ms": 3391,
+      "slo_violation_percent": 1.9
+    },
+    "workload": {
+      "concurrent_users": 133,
+      "user_type": "video_streaming",
+      "scenario": "burst"
+    }
+  },
+  {
+    "service_id": "SVC_98",
+    "timestamp": "2025-02-13T22:47:12.980705",
+    "resource_usage": {
+      "cpu_utilization_percent": 75.4,
+      "ram_usage_mb": 2337,
+      "network_ingress_gb": 2.8,
+      "network_egress_gb": 13.5,
+      "storage_usage_gb": 21.1,
+      "disk_read_rate_mbps": 71.0,
+      "disk_write_rate_mbps": 17.8
+    },
+    "qos_metrics": {
+      "response_time_ms": 3535,
+      "slo_violation_percent": 2.0
+    },
+    "workload": {
+      "concurrent_users": 188,
+      "user_type": "video_streaming",
+      "scenario": "rapid_growth"
+    }
+  },
+  {
+    "service_id": "SVC_99",
+    "timestamp": "2025-03-02T20:17:17.220223",
+    "resource_usage": {
+      "cpu_utilization_percent": 40.0,
+      "ram_usage_mb": 1820,
+      "network_ingress_gb": 2.4,
+      "network_egress_gb": 29.4,
+      "storage_usage_gb": 42.6,
+      "disk_read_rate_mbps": 14.0,
+      "disk_write_rate_mbps": 33.9
+    },
+    "qos_metrics": {
+      "response_time_ms": 4245,
+      "slo_violation_percent": 2.6
+    },
+    "workload": {
+      "concurrent_users": 61,
+      "user_type": "financial_transaction",
+      "scenario": "burst"
+    }
+  }
+]
